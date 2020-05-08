@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link href="./auth.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+    <div id="header" class="center">
+            <h3 class="green-text">Admin-Panel</h3>
+            <h4 class="green-text">&lt;.&gt;</h4>
+            <h5 class="green-text">Point Blank</h5>
+            <p class="green-text">ACM ICPC &nbsp;|&nbsp; GSOC &nbsp;|&nbsp; SIH &nbsp;|&nbsp; FOSS</p>
+    </div>
+    <div id="container" class="container center">
+        <input type="text" placeholder="E mail" autocomplete="off" id="email" class="center"/><br>
+        <input type="password" placeholder="Password" id="password" class="center password"/><br>
+        <button id="btn" type="submit" class="button hoverable white-text">Login</button>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script> 
+    <script src="./auth.js"/>
+</body>
+</html>
