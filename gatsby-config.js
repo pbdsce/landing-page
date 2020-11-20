@@ -3,16 +3,19 @@
  *
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
+import './src/images/'
 
 module.exports = {
    siteMetadata: {
     title: "Point Blank",
-    description: "We are POint Blank",
+    description: "We are Point Blank",
     author: "@sparshkesari",
-    data : ['item1','item2']
+    siteUrl : "https://pbpage.netlify.app"
+    
   },
   /* Your site config here */
-  plugins: [    `gatsby-transformer-sharp`, `gatsby-plugin-sharp`,
+  plugins: [    `gatsby-transformer-sharp`, `gatsby-plugin-sharp`, `gatsby-plugin-react-helmet`,
+
     
     {
       resolve: `gatsby-source-filesystem`,
@@ -20,7 +23,8 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images/`,
       },
-    }
+    },
+    
   ],
   
 }
