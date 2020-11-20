@@ -1,8 +1,8 @@
 import React from "react"
 import Title from "./Title"
-import aboutusdata from "./aboutusdata"
+import aboutusdata from "./eventdata"
 
-const Aboutus = () => {
+const Events = () => {
   return (
     <section className="section ">
       <Title title="Upcoming Events" />
@@ -24,4 +24,4 @@ const Aboutus = () => {
   )
 }
 
-export default Aboutus
+export default Events
