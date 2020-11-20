@@ -3,7 +3,7 @@
  *
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
-import './src/images/'
+// import './src/images/'
 
 module.exports = {
    siteMetadata: {
