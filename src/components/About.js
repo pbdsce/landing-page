@@ -11,7 +11,9 @@ const Jobs = () => {
   const { name, subabout, desc } = aboutdata[value]
 
     return (
-        <section className="section about">
+         <section className="section about" 
+        style={{paddingBottom: "0px"}}
+        >
       <Title title="About Point Blank" />
       <div className="about-center">
         {/* btn container */}
