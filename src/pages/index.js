@@ -13,11 +13,11 @@ export default function Home() {
 <br />
 < Hero />
 <br />
-<Aboutus />
 
-<br />
 
 <About />
+<br /><Aboutus />
+
 <br /><br />
 
       <p>Mid Content Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis numquam deserunt aspernatur 
