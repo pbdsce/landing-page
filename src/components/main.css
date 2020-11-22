@@ -100,7 +100,7 @@ p {
   margin-right: auto;
 }
 .section-title {
-  color: hsl(185, 94%, 87%);
+  color: #96b7f1;
   margin-bottom: 4rem;
   text-align: center;
 }
@@ -331,7 +331,7 @@ p {
 }
 /* ////////////About US */
 
-.service {
+.event {
   background: #061125;
   border: 1px solid hsl(185, 94%, 87%);
   padding: 3rem 1.5rem;
@@ -345,28 +345,28 @@ p {
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
-.service .underline {
+.event .underline {
   width: 3rem;
   height: 0.12rem;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
-.service p {
+.event p {
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
-.service:hover {
+.event:hover {
   background: #050d1c;
   color: hsl(185, 94%, 87%);
 }
-.service:hover p {
+.event:hover p {
   color: hsl(185, 94%, 87%);
 }
-.service:hover .underline {
+.event:hover .underline {
   background: hsl(185, 94%, 87%);
 }
 @media screen and (min-width: 676px) {
-  .services-center {
+  .events-center {
     display: grid;
     grid-template-columns: 1fr 1fr;
     -webkit-column-gap: 2rem;
@@ -375,7 +375,7 @@ p {
   }
 }
 @media screen and (min-width: 992px) {
-  .services-center {
+  .events-center {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
@@ -409,12 +409,12 @@ p {
   border: 1px solid hsl(185, 94%, 87%);
 }
 .about-btn:hover {
-  color: #2caeba;
-  box-shadow: 0 2px #2caeba;
+  color: #96b7f1;
+  box-shadow: 0 2px #96b7f1;
 }
 .active-btn {
-  color: #2caeba;
-  box-shadow: 0 2px #2caeba;
+  color: #96b7f1;
+  box-shadow: 0 2px #96b7f1;
 }
 .about-info {
   min-height: 420px;
@@ -433,7 +433,7 @@ p {
 }
 .about-desc p {
   margin-bottom: 0;
-  color: hsl(209, 34%, 30%);
+  color: #96b7f1;
 }
 .about-icon {
   color: #2caeba;

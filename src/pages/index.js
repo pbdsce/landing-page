@@ -9,20 +9,16 @@ export default function Home() {
   return (
   <>
     <Layout>
-      <SEO />
-<br />
-< Hero />
-<br />
-
-<Events/>
-<br />
-<About />
-<br />
-
-<br /><br />
-
-     
-    </Layout>
+        <SEO />
+        <br />
+        <Hero />
+        <br />
+        <Events/>
+        <About />
+        <br />
+        <br />
+        <br />
+     </Layout>
   </>
   )
 }
