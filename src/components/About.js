@@ -11,10 +11,11 @@ const Jobs = () => {
   const { name, subabout, desc } = aboutdata[value]
 
     return (
-         <section className="section about" 
+         <section className="section about"
         style={{paddingBottom: "0px"}}
         >
-      <Title title="About Point Blank" />
+      <Title title="Teams" />
+      <a name="team"></a> 
       <div className="about-center">
         {/* btn container */}
         <div className="btn-container">
@@ -34,7 +35,7 @@ const Jobs = () => {
         <article className="about-info">
           <h3>{name}</h3>
           <h4>{subabout}</h4>
-          
+
           {/* /// place to add more  */}
           {desc.map(item => {
             return (
@@ -48,8 +49,7 @@ const Jobs = () => {
       </div>
     </section>
   )
-  
+
 }
 
 export default Jobs
-

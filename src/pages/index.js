@@ -11,9 +11,12 @@ export default function Home() {
     <Layout>
         <SEO />
         <br />
+
         <Hero />
         <br />
+        <a name="event" ></a>
         <Events/>
+        <a name="about" ></a>
         <About />
         <br />
         <br />

@@ -1,10 +1,10 @@
 export default[
   {
       id : 1 ,
-     name: "Web Dev",
-        
+     name: "React",
+
         subabout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, unde.',
-        desc :[ 
+        desc :[
             {
                     id : 1,
                     name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi eveniet alias quaerat repellat atque, esse ipsum consectetur temporibus illo optio quis dolor vel?"
@@ -21,10 +21,10 @@ export default[
   },
    {
       id : 2 ,
-     name: "App Dev",
-        
+     name: "Flutter",
+
         subabout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, unde.',
-    desc :[ 
+    desc :[
             {
                     id : 1,
                     name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi eveniet alias quaerat repellat atque, esse ipsum consectetur temporibus illo optio quis dolor vel?"
@@ -40,10 +40,10 @@ export default[
             ]
   }, {
       id : 3 ,
-     name: "IOT",
-        
+     name: "IOT + ML",
+
         subabout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, unde.',
-  desc :[ 
+  desc :[
             {
                     id : 1,
                     name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi eveniet alias quaerat repellat atque, esse ipsum consectetur temporibus illo optio quis dolor vel?"
@@ -59,10 +59,10 @@ export default[
             ]
   }, {
       id : 4 ,
-     name: "ML- Kaagle",
-        
+     name: "Kaagle",
+
         subabout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, unde.',
-         desc :[ 
+         desc :[
             {
                     id : 1,
                     name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi eveniet alias quaerat repellat atque, esse ipsum consectetur temporibus illo optio quis dolor vel?"
@@ -78,10 +78,10 @@ export default[
             ]
   }, {
       id : 5 ,
-     name: "Hackathon",
-        
+     name: "OpenSource",
+
         subabout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, unde.',
-         desc :[ 
+         desc :[
             {
                     id : 1,
                     name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi eveniet alias quaerat repellat atque, esse ipsum consectetur temporibus illo optio quis dolor vel?"
@@ -98,9 +98,9 @@ export default[
   }, {
       id : 6 ,
      name: "Devops",
-        
+
         subabout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, unde.',
-         desc :[ 
+         desc :[
             {
                     id : 1,
                     name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi eveniet alias quaerat repellat atque, esse ipsum consectetur temporibus illo optio quis dolor vel?"
@@ -117,10 +117,10 @@ export default[
   },
    {
       id : 7 ,
-     name: "Research",
-        
+     name: "ML-Research",
+
         subabout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, unde.',
-         desc :[ 
+         desc :[
             {
                     id : 1,
                     name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi eveniet alias quaerat repellat atque, esse ipsum consectetur temporibus illo optio quis dolor vel?"
@@ -138,9 +138,9 @@ export default[
 //    {
 //       id : 8 ,
 //      name: "Web Devepopment",
-        
+
 //         subabout: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, unde.',
-//         desc :[ 
+//         desc :[
 //             {
 //                     id : 1,
 //                     name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi eveniet alias quaerat repellat atque, esse ipsum consectetur temporibus illo optio quis dolor vel?"
@@ -155,6 +155,5 @@ export default[
 //                }
 //             ]
 //   }
-    
-]
 
+]

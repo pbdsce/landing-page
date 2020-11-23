@@ -3,7 +3,7 @@ import {
   FaFacebookSquare,
   FaLinkedin,
   // FaDribbbleSquare,
-  // FaBehanceSquare,
+  FaInstagram,
   FaTwitterSquare,
 } from "react-icons/fa"
 
@@ -11,18 +11,18 @@ const data = [
   {
     id: 1,
     icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    // url: "https://www.twitter.com",
+    url: "https://www.facebook.com/PBDSCE/",
   },
   {
     id: 2,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    // url: "https://www.twitter.com",
+    url: "https://www.linkedin.com/company/point-blank-d",
   },
-   
+
   {
     id: 3,
-    icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-    // url: "https://www.twitter.com",
+    icon: <FaInstagram className="social-icon"></FaInstagram>,
+    url: "https://www.instagram.com/pointblank_dsce/",
   },
 ]
 const links = data.map(link => {

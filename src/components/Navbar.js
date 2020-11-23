@@ -13,17 +13,17 @@ function Navbar() {
                   <div className="logo-text">
                    <a>Point Blank</a>
                    </div>
-                    <button type="button" className="toggle-btn" 
+                    <button type="button" className="toggle-btn"
                     // onClick={toggleSidebar}
                     >
-                     <FaChevronDown /> 
+                     <FaChevronDown />
                     </button>
                 </div>
                <ul className="page-links nav-links">
                 {/* <li ><a href="#">Home </a></li> */}
-                <li ><a href="/#about">About </a></li>
-                <li ><a href="/#members">Members </a></li>
-                <li ><a href="/#contact">Contact</a></li>
+                <li ><a href="#team">Teams </a></li>
+                <li ><a href="#event">Events </a></li>
+                <li ><a href="#about">Contact</a></li>
                 </ul>
             </div>
         </nav>

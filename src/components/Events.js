@@ -8,14 +8,17 @@ const Events = () => {
       <Title title="Upcoming Events" />
       <div className="section-center events-center">
         {aboutusdata.map(aboutus => {
-          const { id, icon, title, text } = aboutus
+          const { id, icon, title, text, date } = aboutus
 
           return (
             <article key={id} className="event">
               {icon}
+
               <h4>{title}</h4>
               <div className="underline"></div>
               <p>{text}</p>
+              <div className="underline"></div>
+              <p> Date:  {date}</p>
             </article>
           )
         })}

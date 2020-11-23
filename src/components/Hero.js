@@ -1,44 +1,24 @@
 import React from "react"
-import Image from "gatsby-image"
+import Icon from "../images/pb_2.svg";
 
-import { graphql, useStaticQuery } from "gatsby"
 
-const query = graphql`
-    {
-      file(relativePath: {eq: "hero.png"}) {
-        childImageSharp {
-          fluid {            
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `
 
-function Hero() {       
-    const {file:{
-        childImageSharp :{fluid},
-    },
-} = useStaticQuery(query)
-    // console.log(data)
+function Hero() {
 
     return (
 
 <header>
     <div className="section-center hero-center">
-   
+
      <article className="hero-info">
           <div>
             <div className="info-hero">
-            <h2>
-                {/* we are 	&lt;&nbsp;.&gt;  */}
-                POINT BLANK</h2>
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore esse aspernatur veritatis quasi quidem modi? Accusamus consectetur corporis aliquam laudantium?</h4>
+            <h4>Point Blank is a programming community that operates out of Dayananda Sagar College of Engineering, Bangalore. We organize programming competitions, seminars and workshops centered around major competitions such as Hackathon, ACM ICPC, SIH and GSoC..</h4>
               </div>
+
           </div>
         </article>
-
-        <Image fluid={fluid} className="hero-img" />
+        <Icon className="hero-img"/>
     </div>
 </header>
     )

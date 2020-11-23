@@ -32,7 +32,8 @@ h4 {
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: jura, "fira code" ;
 }
 h1 {
   font-size: 3rem;
@@ -127,6 +128,7 @@ p {
 
 .navbar {
   background-color: #050d1c;
+
   position: absolute;
   top: 0;
   left: 0;
@@ -136,14 +138,16 @@ p {
   height: 4rem;
   display: flex;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 15px;
   z-index: 200;
   /* filter: blur(1px); */
   /* border: 1px; */
-  border: 0.2px solid #96b7f1;
+  border: 0.2px solid #29df1a;
   position: fixed;
-  opacity: 90%;
-  filter: grayscale(0.5) opacity(0.8);
+  opacity: 100%;
+  filter: grayscale(0.5) opacity(0.8) contrast(125%);
+  border-color: #29df1a;
+  box-shadow: 0 0 10px #29df1a;
 }
 .nav-center {
   width: 90vw;
@@ -265,6 +269,11 @@ p {
   height: 100vh;
   background: hsl(186, 100%, 94%);
   position: relative;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: ". img img img . "
+              ". img img img ."
+              "text text text text text ";
 }
 
 .hero-center {
@@ -282,8 +291,11 @@ p {
 }
 .hero-img {
   display: block;
+  grid-area: img;
+  justify-self: center;
 }
 .hero-info h4 {
+    grid-area: text;
   color: hsl(210, 22%, 49%);
 }
 .hero-icons {
@@ -304,22 +316,27 @@ p {
     background: #fff;
   }
   .hero-center {
-    grid-template-columns: repeat(12, 1fr);
+    display:grid;
+    padding: 5px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: ". img img img . "
+                ". img img img ."
+                "text text text text text ";
   }
   .hero h4 {
     font-size: 0.85rem;
   }
   .hero-info {
-    grid-row: 1/1;
-    grid-column: 7/ 14;
-    z-index: 1000000;
+    grid-area: text;
   }
   .hero-img {
+    grid-area: img;
     display: block;
-    grid-row: -1/1;
-    grid-column: 1/9;
-    height: 100%;
+    height: 350px;
+    width: 300px;
     z-index: 1;
+    justify-self: center;
   }
   .info-hero {
     /* z-index: 1000000; */

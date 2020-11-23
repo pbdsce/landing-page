@@ -11,12 +11,12 @@ module.exports = {
     description: "We are Point Blank",
     author: "@sparshkesari",
     siteUrl : "https://pbpage.netlify.app"
-    
+
   },
   /* Your site config here */
   plugins: [    `gatsby-transformer-sharp`, `gatsby-plugin-sharp`, `gatsby-plugin-react-helmet`,
 
-    
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -24,7 +24,14 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
-    
+    {
+    resolve: "gatsby-plugin-react-svg",
+    options: {
+      rule: {
+        include: /images/, // See below to configure properly
+      }
+    }
+  }
   ],
-  
+
 }
