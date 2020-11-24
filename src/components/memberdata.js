@@ -1,0 +1,32 @@
+export default[
+    {
+        id:1,
+        name: "John Doe",
+        image:"../images/sk.png",
+        title: "Full Stack Developer" ,
+        desc: "Lorem ipsum dolor sit amet",
+        githuburl: "https://github.com/SparshKesari",
+        linkedinurl: "https://www.linkedin.com/in/sparshk98/" ,
+        instagramurl: "https://www.instagram.com/sparsh.kesari/",
+    },
+     {
+        id:1,
+        name: "John Doe",
+        image:"../images/sk.png",
+        title: "Full Stack Developer" ,
+        desc: "Lorem ipsum dolor sit amet",
+        githuburl: "https://github.com/SparshKesari",
+        linkedinurl: "https://www.linkedin.com/in/sparshk98/" ,
+        instagramurl: "https://www.instagram.com/sparsh.kesari/",
+    },
+     {
+        id:1,
+        name: "John Doe",
+        image:"../images/sk.png",
+        title: "Full Stack Developer" ,
+        desc: "Lorem ipsum dolor sit amet",
+        githuburl: "https://github.com/SparshKesari",
+        linkedinurl: "https://www.linkedin.com/in/sparshk98/" ,
+        instagramurl: "https://www.instagram.com/sparsh.kesari/",
+    },
+]
