@@ -1,2 +1,2 @@
 # Point Blank Website
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9ca0c46e-91ec-4ea4-80e5-6da298cf66ea/deploy-status)](https://app.netlify.com/sites/dev-master-pbtest/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/78bf83ca-927b-470d-a103-b7a66a680ce9/deploy-status)](https://app.netlify.com/sites/pbpage/deploys)
