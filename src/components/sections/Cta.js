@@ -62,11 +62,15 @@ const Cta = ({
                 <path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#376DF9" />
               </svg>
             </Input>*/}
-						<button style={{ "display": "flex", "alignItems":"center", "gap":"7px", "padding":"0.5em", "font":"bold" }}>{"Continue to registration "}
+
+            <a href={'https://discord.gg/96RqZCTQ7q'}>
+						<button style={{ "display": "flex", "alignItems":"center", "gap":"7px","fontSize":"16px","fontFamily":"Inter" ,"padding":"0.5em", "borderRadius":"0.5em","fontWeight":"bold", "backgroundColor":"rgba(255,255,255,0.85)" }}>{"Join Us "}
 							<span><svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
-								<path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#376DF9" />
+								<path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#5355d4" />
 							</svg></span>
 						</button>
+            </a>
+
 					</div>
 				</div>
 			</div>

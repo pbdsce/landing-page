@@ -18,7 +18,7 @@ const Events = () => {
 					<p style={{ color: "#aaa" }}>
 						{eventDescription}
 					</p>
-					{(eventLink !== '') ? <a href={eventLink}><button style={{ "display": "flex", "alignItems": "center", "gap": "7px", "padding": "0.5em", "font": "bold" }}>{eventLinkTitle}</button></a> : <></>}
+					{(eventLink !== '') ? <a href={eventLink}><button style={{ "display": "flex", "alignItems": "center", "gap": "7px", "fontSize":"16px","borderRadius":"5px","fontFamily":"Inter" ,"padding": "0.5em", "font": "bold" }}>{eventLinkTitle}</button></a> : <></>}
 
 				</TimelineItem>))}
 

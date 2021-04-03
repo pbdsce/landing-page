@@ -84,7 +84,7 @@ const FeaturesTiles = ({
                     ACM - ICPC
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate
+                  
                     </p>
                 </div>
               </div>
@@ -107,7 +107,7 @@ const FeaturesTiles = ({
                     Kaggle
                     </h4>
                   <p className="m-0 text-sm">
-                    Polish and develop your Machine Learning skills
+                    
                     </p>
                 </div>
               </div>
@@ -129,7 +129,7 @@ const FeaturesTiles = ({
                     IOT-ML
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate
+                   
                     </p>
                 </div>
               </div>
@@ -151,7 +151,7 @@ const FeaturesTiles = ({
                     ML-Research
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate
+                   
                     </p>
                 </div>
               </div>
@@ -173,7 +173,7 @@ const FeaturesTiles = ({
                     DevOps
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate
+                   
                     </p>
                 </div>
               </div>
@@ -195,7 +195,7 @@ const FeaturesTiles = ({
                    Flutter Development
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate
+                    
                     </p>
                 </div>
               </div>
@@ -217,7 +217,7 @@ const FeaturesTiles = ({
                     React Development
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate
+                   
                     </p>
                 </div>
               </div>
@@ -239,7 +239,7 @@ const FeaturesTiles = ({
                       Open Source Hackathon
                         </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate
+                   
                     </p>
                 </div>
               </div>
@@ -261,7 +261,7 @@ const FeaturesTiles = ({
                     Interview Prep
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate
+                   
                     </p>
                 </div>
               </div>
