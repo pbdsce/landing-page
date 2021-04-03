@@ -1,39 +1,44 @@
 {
-  "name": "PointBlank",
-  "private": true,
-  "description": "",
+  "name": "open-react-template",
   "version": "0.1.0",
-  "license": "0BSD",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
+  "private": true,
   "dependencies": {
-    "gatsby": "^2.25.3",
-    "gatsby-image": "^2.5.0",
-    "gatsby-plugin-react-helmet": "^3.5.0",
-    "gatsby-plugin-react-svg": "^3.0.0",
-    "gatsby-plugin-sharp": "^2.8.0",
-    "gatsby-source-filesystem": "^2.5.0",
-    "gatsby-transformer-sharp": "^2.6.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0",
-    "react-icons": "^3.11.0"
-  },
-  "devDependencies": {
-    "prettier": "2.1.2"
+    "classnames": "^2.2.6",
+    "lodash": "^4.17.20",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.1",
+    "react-awesome-slider": "^4.1.0",
+    "react-dom": "^16.13.1",
+    "react-ga": "^2.7.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1",
+    "react-typical": "^0.1.3",
+    "vertical-timeline-component-for-react": "^1.0.7"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/cruip/open-react-template.git"
   },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {}
 }
