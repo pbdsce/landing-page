@@ -1,7 +1,7 @@
 import React from 'react'
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 
-const ListOfEvents = [{ 'eventTitle': "Registration", 'eventSubtitile': "", 'eventDescription': "Praticipants can apply here", 'eventLink': "https://forms.gle/7tGBHBQ6X8ESrRC79", "eventLinkTitle": "Apply Here" }, { 'eventTitle': "Recruitment Test", 'eventSubtitile': "", 'eventDescription': "12 April onwards", 'eventLink': "", "eventLinkTitle": "" }, { 'eventTitle': "Interview", 'eventSubtitile': "", 'eventDescription': "TBD", 'eventLink': "", "eventLinkTitle": "" }]
+const ListOfEvents = [{ 'eventTitle': "Registration", 'eventSubtitile': "", 'eventDescription': "Praticipants can apply here", 'eventLink': "https://forms.gle/7tGBHBQ6X8ESrRC79", "eventLinkTitle": "Apply Here" }, { 'eventTitle': "Recruitment Test", 'eventSubtitile': "", 'eventDescription': "07 May onwards (Only for 2020 batch)", 'eventLink': "", "eventLinkTitle": "" }, { 'eventTitle': "Interview", 'eventSubtitile': "", 'eventDescription': "TBD", 'eventLink': "", "eventLinkTitle": "" }]
 
 const Events = () => {
 	return (
