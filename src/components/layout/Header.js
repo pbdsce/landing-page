@@ -126,7 +126,7 @@ const Header = ({
 											className="list-reset header-nav-right"
 										>
 											<li>
-												<a href={"https://forms.gle/7tGBHBQ6X8ESrRC79"} className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Register</a>
+												<a href={"https://forms.gle/yCwMHcn2iatnk9mW6"} target="_blank"  className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Contact Us</a>
 											</li>
 										</ul>}
 								</div>
