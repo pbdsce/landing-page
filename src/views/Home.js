@@ -16,7 +16,7 @@ const Home = () => {
       <a name="ffteams"></a>
       <FeaturesTiles />
     
-      <Events />
+      {/* <Events /> */}
       <Cta split />
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       <Cta split />
