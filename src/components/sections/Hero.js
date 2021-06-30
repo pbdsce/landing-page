@@ -8,8 +8,8 @@ import Modal from '../elements/Modal'
 import AwesomeSlider from 'react-awesome-slider'
 import 'react-awesome-slider/dist/styles.css'
 import ca_1 from './../../assets/images/Carousel1.png'
-import ca_2 from './../../assets/images/Carousel2.png'
-import ca_3 from './../../assets/images/Carousel3.png'
+import ca_2 from './../../assets/images/pb_1.png'
+import ca_3 from './../../assets/images/pb_2.png'
 
 const propTypes = {
     ...SectionProps.types,
