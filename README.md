@@ -31,25 +31,25 @@ Steps to install NodeJs [Here](https://nodejs.org/en/download/)
 4. Install all the dependencies
 
 ```
-    npm i
+    yarn install
 ```
 
 5. Start the development server.
 
 ```
-    npm start
+    yarn start
 ```
 
 6. Build the Community website:
 
 ```sh
-    npm build
+    yarn build
 ```
 
 7. Serve an optimized production build:
 
 ```sh
-    npm serve
+    yarn serve
 ```
 
 
