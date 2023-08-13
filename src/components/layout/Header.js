@@ -126,7 +126,27 @@ const Header = ({
                         <a
                           href={'https://blog.pointblank.club/'}
                           target='_blank'
-                          className='button button-wide-mobile button-sm'
+                          className='navlink'
+                          onClick={closeMenu}
+                        >
+                          Events
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href={'https://blog.pointblank.club/'}
+                          target='_blank'
+                          className='navlink'
+                          onClick={closeMenu}
+                        >
+                          Members
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href={'https://blog.pointblank.club/'}
+                          target='_blank'
+                          className='navlink'
                           onClick={closeMenu}
                         >
                           Blog
@@ -136,7 +156,7 @@ const Header = ({
                         <a
                           href={'https://forum.dsce.in/'}
                           target='_blank'
-                          className='button button-wide-mobile button-sm'
+                          className='navlink'
                           onClick={closeMenu}
                         >
                           Forum
@@ -148,6 +168,9 @@ const Header = ({
                           target='_blank'
                           className='button button-primary button-wide-mobile button-sm'
                           onClick={closeMenu}
+                          style = {{
+                            borderRadius:"5px"
+                          }}
                         >
                           Contact Us
                         </a>
