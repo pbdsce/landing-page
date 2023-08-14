@@ -40,7 +40,7 @@ const App = () => {
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute exact path="/CodeofConduct" component={Coc} layout={LayoutCoc} />
-
+          
         </Switch>
       )} />
   );

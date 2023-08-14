@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import { head } from 'lodash';
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -54,6 +55,13 @@ const FeaturesSplit = ({
     paragraph: 'We organise lots of student centric activities'
   };
 
+  const codingImages = [
+    "/lc.png",
+    "/cf.jpeg",
+    "/cc.png",
+    "/ac.png"
+  ]
+
   return (
     <section
       {...props}
@@ -74,7 +82,8 @@ const FeaturesSplit = ({
                   </h3>
                   <br />
                 <p className="m-0">
-                  Since its inception, Point Blank has organised <b>over 40 iterations</b> of
+                Point Blank has hosted 40+ editions of its PB Hustle coding contest, where participants tackle 5-7 progressively challenging questions in their chosen language. The aim is to improve college programming culture and qualify teams for ACM ICPC. Notably, DSCE's top programmers have emerged from this, with Codechef long challenge participation growing from 3 to 70+ participants. Further details are provided later.
+                  {/* Since its inception, Point Blank has organised <b>over 40 iterations</b> of
 its weekly coding contest, called the <b>PB Hustle</b> . We ask participants to solve a series
 of 5-7 questions of varying difficulty levels in a programming language of their choice.
 The contests are open to all and the contests get progressively harder over iterations.
@@ -87,10 +96,10 @@ to better the programming culture in the college.
 programmers DSCE has ever seen (on the basis of rating and competition
 performance). Our participation numbers in competitions such as Codechef long
 challenge has gone up from 3 to 70+ participants. The details are elaborated upon in
-later sections.
+later sections. */}
                   </p>
               </div>
-              <div className={
+              {/* <div className={
                 classNames(
                   'split-item-image center-content-mobile reveal-from-bottom',
                   imageFill && 'split-item-image-fill'
@@ -101,6 +110,30 @@ later sections.
                   alt="Features split 01"
                   width={528}
                   height={396} />
+              </div> */}
+              <div
+                style={{
+                  display:"grid",
+                  gridTemplateColumns:"auto auto",
+                  gridTemplateAreas:"auto auto",
+                  gap:"1rem",
+                  marginLeft:"auto"
+                }}
+              >
+                {codingImages.map((x,i)=>{
+                  return(
+                    <img
+                      src = {x}
+                      key = {i}
+                      style = {{
+                        objectFit:"fill",
+                        borderRadius:"5px",
+                        width:"200px",
+                        height:"180px"
+                      }}
+                    />
+                  )
+                })}
               </div>
             </div>
 
@@ -130,6 +163,9 @@ our primer to F/OSS development
                 <Image
                   src={require('./../../assets/images/features-split-image-02.png')}
                   alt="Features split 02"
+                  style = {{
+                    borderRadius:"7px"
+                  }}
                   width={528}
                   height={396} />
               </div>
@@ -159,6 +195,9 @@ Two of our teams qualified to the finals, with 1 winning the software edition..
                   src={require('./../../assets/images/features-split-image-03.png')}
                   alt="Features split 03"
                   width={528}
+                  style = {{
+                    borderRadius:"7px"
+                  }}
                   height={396} />
               </div>
             </div>
