@@ -124,7 +124,7 @@ const Header = ({
                     <ul className='list-reset header-nav-right'>
                       <li>
                         <a
-                          href={'https://blog.pointblank.club/'}
+                          href={'/events'}
                           target='_blank'
                           className='navlink'
                           onClick={closeMenu}
