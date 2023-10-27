@@ -1,0 +1,17 @@
+[
+    {
+        "name":"Saalim Quadri",
+        "role":"Lead",
+        "img":"https://img.freepik.com/free-vector/illustration-businessman_53876-5856.jpg?w=826&t=st=1692202460~exp=1692203060~hmac=44edc81605083051d10b59d5229250403cc88fbc3a871272665af4e73879c277"
+    },
+    {
+        "name":"Akash Sharma",
+        "role":"Web Development Lead",
+        "img":"https://img.freepik.com/free-vector/illustration-businessman_53876-5856.jpg?w=826&t=st=1692202460~exp=1692203060~hmac=44edc81605083051d10b59d5229250403cc88fbc3a871272665af4e73879c277"
+    },
+    {
+        "name":"Yusuf Azam",
+        "role":"Competitive Programming Lead",
+        "img":"https://img.freepik.com/free-vector/illustration-businessman_53876-5856.jpg?w=826&t=st=1692202460~exp=1692203060~hmac=44edc81605083051d10b59d5229250403cc88fbc3a871272665af4e73879c277"
+    }
+]
