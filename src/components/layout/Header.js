@@ -134,7 +134,7 @@ const Header = ({
                       </li>
                       <li>
                         <a
-                          href={'https://blog.pointblank.club/'}
+                          href={'/members'}
                           target='_blank'
                           className='navlink'
                           onClick={closeMenu}
