@@ -4,6 +4,8 @@
     width: 100%;
     // gap:1rem;
     align-items: center;
+    flex-wrap: wrap;
+    gap:1rem;
     justify-content: space-between;
 }
 
@@ -13,7 +15,7 @@
     background-color: rgba(255, 255, 255, 0.079);
     border-radius: 7px;
     min-height: 300px;
-    width: 337px;
+    width: 330px;
     overflow: hidden;
 
     .event-poster-container{
