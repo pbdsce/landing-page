@@ -125,7 +125,7 @@ const Header = ({
                       <li>
                         <a
                           href={'/events'}
-                          target='_blank'
+                          
                           className='navlink'
                           onClick={closeMenu}
                         >
@@ -135,7 +135,7 @@ const Header = ({
                       <li>
                         <a
                           href={'/members'}
-                          target='_blank'
+                          
                           className='navlink'
                           onClick={closeMenu}
                         >
@@ -145,7 +145,7 @@ const Header = ({
                       <li>
                         <a
                           href={'https://blog.pointblank.club/'}
-                          target='_blank'
+                          
                           className='navlink'
                           onClick={closeMenu}
                         >
@@ -155,7 +155,7 @@ const Header = ({
                       <li>
                         <a
                           href={'https://forum.dsce.in/'}
-                          target='_blank'
+                          
                           className='navlink'
                           onClick={closeMenu}
                         >
@@ -165,7 +165,7 @@ const Header = ({
                       <li>
                         <a
                           href={'https://forms.gle/yCwMHcn2iatnk9mW6'}
-                          target='_blank'
+                          
                           className='button button-primary button-wide-mobile button-sm'
                           onClick={closeMenu}
                           style = {{

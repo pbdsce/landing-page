@@ -20,8 +20,10 @@ const Members = () => {
                 <div className='members-parent-container'>
                     {data.map((item,key)=>(
                         <Link to="https://pointblank.vercel.app/kitarp29" className="members-container" key={key}>
-                        <div className='members-info-container'>
                             <img src={item.img} alt="logo" className='members-img'/>
+                            <div className='members-img-overlay'></div>
+                        <div className='members-info-container'>
+                            
                             <h2>{item.name}</h2>
                             <h3>{item.role}</h3>
                         </div>
