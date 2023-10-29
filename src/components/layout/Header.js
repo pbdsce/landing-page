@@ -125,7 +125,6 @@ const Header = ({
                       <li>
                         <a
                           href={'/events'}
-                          
                           className='navlink'
                           onClick={closeMenu}
                         >

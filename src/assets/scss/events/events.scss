@@ -1,12 +1,26 @@
 .event-parent-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    grid-auto-rows: auto; /* Automatically adds rows as needed */
     max-width: 1200px;
     width: 100%;
-    // gap:1rem;
-    align-items: center;
-    flex-wrap: wrap;
-    gap:1.4rem;
-    justify-content: space-between;
+    gap: 1.4rem; /* Adjust the gap as needed */
+    justify-content: center;
+    place-items: center;
+}
+
+@include media( '<=large' ) {
+
+    .event-parent-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@include media( '<=medium' ) {
+
+    .event-parent-container{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
 .event-container{
