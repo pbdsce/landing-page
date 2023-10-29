@@ -28,6 +28,16 @@
         "event_start_time":"18:00",
         "event_end_time":"19:00",
         "event_poster":"https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?w=1380&t=st=1692111092~exp=1692111692~hmac=c2312c189502d05ff83a1d06806c73f56bde480c24e5437614441f14068d43a9"
+    },
+    {
+        "event_name": "This is a new Event",
+        "event_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "speaker_name":"John Doe",
+        "speaker_designation":"App Developer at Google", 
+        "event_date":"12/12/2023",
+        "event_start_time":"18:00",
+        "event_end_time":"19:00",
+        "event_poster":"https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?w=1380&t=st=1692111092~exp=1692111692~hmac=c2312c189502d05ff83a1d06806c73f56bde480c24e5437614441f14068d43a9"
     }
 
 ]

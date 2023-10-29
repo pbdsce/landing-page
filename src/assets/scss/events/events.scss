@@ -5,8 +5,8 @@
     // gap:1rem;
     align-items: center;
     flex-wrap: wrap;
-    gap:1rem;
-    justify-content: space-around;
+    gap:1.4rem;
+    justify-content: space-between;
 }
 
 .event-container{
@@ -15,7 +15,7 @@
     background-color: rgba(255, 255, 255, 0.079);
     border-radius: 7px;
     min-height: 300px;
-    width: 330px;
+    width: 337px;
     overflow: hidden;
 
     .event-poster-container{

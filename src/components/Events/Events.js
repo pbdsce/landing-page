@@ -25,7 +25,7 @@ const Events = () => {
                                     <img src={x.event_poster} alt="logo" className='event-poster' />
                                 </div>
                                 <div className='event-content-container'>
-                                    <h3>{x.event_name}</h3>
+                                    <h3>{x.event_name}</h3>,m.
                                     <p><b>{x.speaker_name} </b>, {x.speaker_designation}
                                     <br />
                                     {x.event_date}, {x.event_start_time} - {x.event_start_time}</p>
