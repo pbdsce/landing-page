@@ -2,21 +2,26 @@
   { 
     "img" : "https://ik.imagekit.io/qx5kklh3ls/WhatsApp%20Image%202023-10-29%20at%2011.12.20%20AM.jpeg?updatedAt=1698558279266",
     "name" : "Saalim Quadri",
-    "role" : "Member"
+    "role" : "Lead"
   },
   { 
-    "img" : "https://lh3.googleusercontent.com/pw/ADCreHcm0vRZaqSX_6rVyhjB1pDkNZt78FX7sEFAPg7bkGATR3zNMNTjBJeU3TWEPUGFGM-AedbhZrNQoYy9sOKsNYWluC8s6U84OSSx0XUbYZdBAB4MpK7fUAtYwisbwK_X_thdvzryv7NePhNjvehY8eM0h9M-XWaxIB5VFKa3NbsQ-5LX5q9V2C6HFccCDvgPRFlT2_Szs6Jr4MIumsumoW5lahA_wnOwRwF1BG44vj5YRG_lIyOS2xC-wMSi7lZ4UUXNr6T7E4KZf6CXtxMZ-X4LQSjgy1GiaUin9K9KRX73GuxSoLJz-3zb8AwbVU5P1_SrrSU0lR_4LZ5Pmln4yONj9eD7HDQJNo26Hm_04Svxbfo6mVcIPSS85yU1nfpRbIr3eW5bbo2gdGeupuqy50oxDa9uW-yZT8NpA7KEgPMAFoWLzTbAiGEuKbuLALzG1muqEUy4jgKgzu7VjGB6AaSwsx10Ia4SykjryjYuQKKZ7r7C1tn_VxExHjn0T2S7BEwxhWw3pUeXSlNKxSsAU79Rek_RkAouwn5PPR87nD8U78mvwfCilCUNCtHDvBrb01eGOrGznmR4N-LpTkMQ6EDt23nHS_JWDodtkIjVt3KtEULS5x9FMaEv8-JG73nbO90xdMJfuW5xX8Rcxb8tXIBtGoKZKbliwCD1G0cyLXlv50Ql0jiDkYjiIBgWOvtErmv1j7uezSAy59xhdYyGzHsF95a4f4GXc7yR5Zj8SKE3a2wV3vg4JFGupRtt7M9nP5vz88oxq4oDsBZZxc9Xe0XTYCbKe_7M18t7n9fC41-7Tf93-vPax81S4JKRfjJ1tJLFguJSUNXpS5KmZGKnInduCTL11SKCS6MC5r04_edE5IkfFTSfhVDVm6lwLw4aavX2R_pKp7PDCrQtW4FLEkfrKbMKP-h9sALi49vxVlFsalwZIpDFRk1mqG5ymXS4R3JPke74QAEyEmNEo1AuFvP9RK6TgnxUQi_s5rzIg90rjw-j1oIiSOkkiP4L108-899I5FJCh1Wr3UzvunOYeq1TLheQmF4IQMLx6BPolw=w1445-h963-s-no?authuser=1",
+    "img" : "https://ik.imagekit.io/qx5kklh3ls/IMG-20220219-WA0040.jpg?updatedAt=1698773248773",
     "name" : "Akash Sharma",
     "role" : "Member"
   },
   { 
     "img" : "https://ik.imagekit.io/qx5kklh3ls/index.jpeg?updatedAt=1678781533632",
     "name" : "Prathik Singh",
-    "role" : "Member"
+    "role" : "Lead"
   },
   { 
     "img" : "https://avatars.githubusercontent.com/u/90026952?v=4",
     "name" : "Pratyush Singh",
+    "role" : "Lead"
+  },
+  { 
+    "img" : "https://avatars.githubusercontent.com/u/36353507?v=4",
+    "name" : "Ashutosh Pandey",
     "role" : "Lead"
   }
 ]
