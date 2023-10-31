@@ -1,0 +1,14 @@
+name: PBCI
+
+on: [push, pull_request]
+
+jobs:
+  jsonLint:
+    name: JsonLint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Run jsonlint.
+        run: |
+          sudo apt install python3-demjson && \
+          while read -r script; do jsonlint $script; done < files
