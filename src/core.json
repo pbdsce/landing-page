@@ -1,18 +1,22 @@
-[
-    {
-        "name":"Saalim Quadri",
-        "role":"Member",
-        "img":"https://ik.imagekit.io/qx5kklh3ls/WhatsApp%20Image%202023-10-29%20at%2011.12.20%20AM.jpeg?updatedAt=1698558279266"
-    },
-    {
-        "name":"Akash Sharma",
-        "role":"Member",
-        "img":"https://ik.imagekit.io/qx5kklh3ls/IMG-20220219-WA0040.jpg?updatedAt=1698773248773"
-    },
-    {
-        "name":"Prathik Singh",
-        "role":"Member",
-        "img":"https://ik.imagekit.io/qx5kklh3ls/index.jpeg?updatedAt=1678781533632"
-    }
-
+[ 
+  { 
+    "img" : "https://ik.imagekit.io/qx5kklh3ls/WhatsApp%20Image%202023-10-29%20at%2011.12.20%20AM.jpeg?updatedAt=1698558279266",
+    "name" : "Saalim Quadri",
+    "role" : "Member"
+  },
+  { 
+    "img" : "https://ik.imagekit.io/qx5kklh3ls/IMG-20220219-WA0040.jpg?updatedAt=1698773248773",
+    "name" : "Akash Sharma",
+    "role" : "Member"
+  },
+  { 
+    "img" : "https://ik.imagekit.io/qx5kklh3ls/index.jpeg?updatedAt=1678781533632",
+    "name" : "Prathik Singh",
+    "role" : "Member"
+  },
+  { 
+    "img" : "https://avatars.githubusercontent.com/u/90026952?v=4",
+    "name" : "Pratyush Singh",
+    "role" : "Lead"
+  }
 ]
