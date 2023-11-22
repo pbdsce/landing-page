@@ -143,24 +143,15 @@ const Header = ({
                       </li>
                       <li>
                         <a
-                          href={'https://blog.pointblank.club/'}
+                          href={'/achievements'}
                           
                           className='navlink'
                           onClick={closeMenu}
                         >
-                          Blog
+                          Achievements
                         </a>
                       </li>
-                      <li>
-                        <a
-                          href={'https://forum.dsce.in/'}
-                          
-                          className='navlink'
-                          onClick={closeMenu}
-                        >
-                          Forum
-                        </a>
-                      </li>
+                   
                       <li>
                         <a
                           href={'https://forms.gle/yCwMHcn2iatnk9mW6'}
