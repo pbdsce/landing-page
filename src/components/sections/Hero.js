@@ -7,9 +7,10 @@ import Image from '../elements/Image'
 import Modal from '../elements/Modal'
 import AwesomeSlider from 'react-awesome-slider'
 import 'react-awesome-slider/dist/styles.css'
-import ca_1 from './../../assets/images/Carousel1.png'
+import ca_1 from '../../assets/images/new1.jpeg'
 import ca_2 from './../../assets/images/pb_1.png'
 import ca_3 from './../../assets/images/pb_2.png'
+import ca_4 from './../../assets/images/new2.jpeg'
 
 const propTypes = {
     ...SectionProps.types,
@@ -86,9 +87,11 @@ const Hero = ({
                         data-reveal-delay='500'
                     >
                         <AwesomeSlider>
-                            <div data-src={ca_1} />
+            
                             <div data-src={ca_2} />
                             <div data-src={ca_3} />
+                            <div data-src={ca_1} />
+                            <div data-src={ca_4} />
                         </AwesomeSlider>
                     </div>
                     {/* <Modal
