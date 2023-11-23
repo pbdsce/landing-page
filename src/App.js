@@ -15,6 +15,7 @@ import Coc from './views/Coc';
 import Events from './components/Events/Events';
 import Members from "./components/Members/Members";
 import Achievements from './components/Achievements/Achievements'
+import Form from './components/Form/Form';
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -47,6 +48,7 @@ const App = () => {
           <AppRoute exact path="/events" component={Events} layout={LayoutDefault} />
           <AppRoute exact path="/achievements" component={Achievements} layout={LayoutDefault} />
           <AppRoute exact path="/members" component={Members} layout={LayoutDefault}/>
+          <AppRoute exact path="/form" component={Form} layout={LayoutDefault}/>
           
         </Switch>
       )} />
