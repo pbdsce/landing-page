@@ -5,6 +5,7 @@ import SectionHeader from '../sections/partials/SectionHeader';
 import { useForm } from 'react-hook-form';
 import {supabase} from '../../utils/supabase';
 import toast , {Toaster} from 'react-hot-toast';
+import branches from "../../branches.json"
 
 const Form = () => {
 
@@ -15,6 +16,9 @@ const Form = () => {
     const [mode, setMode] = useState(false)
     const [display, setDisplay] = useState(false)
     const [inputValue, setInputValue] = useState('');
+    const usnRegex = /^1DS\w{7}$/
+    const phoneRegex = /^\d{10}$/
+
     const changeMode = (e) => {
         console.log(e.target.value)
         if (e.target.value === "1") setMode(false)
@@ -29,6 +33,11 @@ const Form = () => {
       };
 
     const onSubmit = async (dataa) => {
+        const {usn,whatsapp} = dataa
+        if(!phoneRegex.test(whatsapp)){
+            toast.error("Please enter a valid 10 digit phone no.",{duration:3000})
+            return
+        }
         let db,regValue,regField;
         if(dataa.year === '1'){
             db='First';
@@ -37,12 +46,20 @@ const Form = () => {
         }
         else if(dataa.year === '2')
         {
+            if(!usnRegex.test(usn)){
+                toast.error("Please enter a valid USN",{duration:2500})
+                return
+            }
             db='Second';
             regValue=dataa.usn;
             regField='USN';
 
         }
         else{
+            if(!usnRegex.test(usn)){
+                toast.error("Please enter a valid USN",{duration:3500})
+                return
+            }
             db='Third'
             regValue=dataa.usn;
             regField='USN';
@@ -51,6 +68,7 @@ const Form = () => {
         const {data,error} = await supabase.from(`${db}_Years`).insert({[regField]:regValue,Name:dataa.name,Branch:dataa.branch,Bio:dataa.bio,Year:dataa.year,Email:dataa.email,WhatsApp_No:dataa.whatsapp});
         if(!error)
         toast.success(`Data Saved ! Good Luck for the Test`,{duration:3000});
+        else if (error.code ==="23505") toast.error("Uh-oh!! It seems you have already registered before")
         else
         toast.error(`Uh-Oh! ${error.details}`,{duration:3000});
         reset()
@@ -58,12 +76,14 @@ const Form = () => {
 
     return (
         <>
-        <Toaster/>
+        
             <Hero2 className="illustration-section-01" />
 
             <div className="container">
                 <SectionHeader style={{ marginTop: "-30px" }} data={sectionHeader} className="center-content" />
+                <Toaster position='top-right'/>
                 <form onSubmit={handleSubmit(onSubmit)} className='form'>
+                    
                     <div className='flex flex-col flex-center form-container'>
 
                         <div className='flex flex-col' style={{ gap: "0.5rem", width: "100%" }}>
@@ -75,7 +95,8 @@ const Form = () => {
                                 <label className='form-label' htmlFor="name">Branch</label>
                                 <select required {...register("branch")} className='input-box'>
                                     <option selected disabled>Select Branch</option>
-                                    <option className='option' value="CSE">CSE</option>
+                                    {branches.map((branch, index)=> <option key = {index} className='option' value = {branch.value}>{branch.name}</option>)}
+                                    {/* <option className='option' value="CSE">CSE</option>
                                     <option className='option' value="CSD">CS(Cyber Security)</option>
                                     <option className='option' value="CSD">CSD</option>
                                     <option className='option' value="CSD">AIML</option>
@@ -86,7 +107,7 @@ const Form = () => {
                                     <option className='option' value="CSD">ETE</option>
                                     <option className='option' value="ABC">Civil</option>
                                     <option className='option' value="CDE">Aero</option>
-                                    <option className='option' value="XCE">XCE</option>
+                                    <option className='option' value="XCE">XCE</option> */}
                                 </select>
                             </div>
                             <div className='flex flex-col w-full' style={{ gap: "0.5rem" }}>

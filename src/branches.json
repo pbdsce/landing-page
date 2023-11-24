@@ -1,0 +1,23 @@
+[
+    {"value": "AI-ML", "name": "AIML"},
+    {"value": "AE", "name": "Aero E."},
+    {"value": "AutoE", "name": "Auto E."},
+    {"value": "Biotech", "name": "Biotech"},
+    {"value": "CSE", "name": "CSE"},
+    {"value": "CSBS", "name": "CSBS"},
+    {"value": "CSE-CYBERSEC", "name": "CSE (Cyber Sec)"},
+    {"value": "CSE-DS", "name": "CSE-DS"},
+    {"value": "CSE-IoT", "name": "CSE-IoT"},
+    {"value": "CSD", "name": "CSD"},
+    {"value": "ChemE", "name": "ChemE"},
+    {"value": "CivilE", "name": "Civil E."},
+    {"value": "EEE", "name": "EEE"},
+    {"value": "ECE", "name": "ECE"},
+    {"value": "ISE", "name": "ISE"},
+    {"value": "EIE", "name": "EIE"},
+    {"value": "ME", "name": "ME"},
+    {"value": "MEE", "name": "MEE"},
+    {"value": "ETE", "name": "ETE"},
+    {"value": "RAI", "name": "RAI"}
+  ]
+  
