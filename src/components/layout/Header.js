@@ -82,9 +82,9 @@ const Header = ({
     <>
 
     <header {...props} className={classes}>
-    <div style = {{backgroundColor:" #ffb618 ", width:"100%", padding:"10px",textAlign:"center",color:"black",fontWeight:"600"}}>
+    <div style = {{backgroundColor:" #ffb618 ", width:"100%", padding:"10px",textAlign:"center",color:"black",fontWeight:"600",fontSize:".8rem"}}>
       We are recruiting !!&nbsp;
-      <a href="/form" style = {{textDecoration:"underline", color:"black"}}>Click here</a>
+      <a href="/form" style = {{textDecoration:"underline", color:"black"}}>Register here</a>
     </div>
       <div className='container'>
         <div
