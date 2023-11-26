@@ -14,10 +14,13 @@ const Form = () => {
     };
 
     const [mode, setMode] = useState(false)
+    const [usnInput,setUsnInput] = useState("")
+    const [regInput, setRegInput] = useState("")
     const [display, setDisplay] = useState(false)
     const [inputValue, setInputValue] = useState('');
     const usnRegex = /^1DS\w{7}$/
     const phoneRegex = /^\d{10}$/
+    const admnRegex = /^23UGDS\w{4}$/
 
     const changeMode = (e) => {
         console.log(e.target.value)
@@ -28,10 +31,6 @@ const Form = () => {
 
     const { register, handleSubmit,reset } = useForm()
 
-    const handleInputChange = (e) => {
-        setInputValue(e.target.value.toUpperCase());
-      };
-
     const onSubmit = async (dataa) => {
         const {usn,whatsapp} = dataa
         if(!phoneRegex.test(whatsapp)){
@@ -40,6 +39,10 @@ const Form = () => {
         }
         let db,regValue,regField;
         if(dataa.year === '1'){
+            if(!admnRegex.test(dataa.regno)){
+                toast.error("Please Enter correct Admission No.", {duration:2500})
+                return
+            }
             db='First';
             regValue=dataa.regno;
             regField='RegNo'
@@ -64,14 +67,20 @@ const Form = () => {
             regValue=dataa.usn;
             regField='USN';
         }
-        toast.loading("Saving Data",{duration:1500});
+        let savingToast = toast.loading("Saving Data");
         const {data,error} = await supabase.from(`${db}_Years`).insert({[regField]:regValue,Name:dataa.name,Branch:dataa.branch,Bio:dataa.bio,Year:dataa.year,Email:dataa.email,WhatsApp_No:dataa.whatsapp});
-        if(!error)
-        toast.success(`Data Saved ! Good Luck for the Test`,{duration:3000});
-        else if (error.code ==="23505") toast.error("Uh-oh!! It seems you have already registered before")
+        toast.dismiss(savingToast)
+        if(!error){
+            toast.success(`Data Saved ! Good Luck for the Test`,{duration:3000});
+        }
+        else if (error.code ==="23505"){
+            toast.error("Uh-oh!! It seems you have already registered before")
+        }
         else
         toast.error(`Uh-Oh! ${error.details}`,{duration:3000});
         reset()
+        setUsnInput("")
+        setRegInput("")
     }
 
     return (
@@ -96,18 +105,7 @@ const Form = () => {
                                 <select required {...register("branch")} className='input-box'>
                                     <option selected disabled>Select Branch</option>
                                     {branches.map((branch, index)=> <option key = {index} className='option' value = {branch.value}>{branch.name}</option>)}
-                                    {/* <option className='option' value="CSE">CSE</option>
-                                    <option className='option' value="CSD">CS(Cyber Security)</option>
-                                    <option className='option' value="CSD">CSD</option>
-                                    <option className='option' value="CSD">AIML</option>
-                                    <option className='option' value="CSD">ISE</option>
-                                    <option className='option' value="CSD">ECE</option>
-                                    <option className='option' value="ME">ME</option>
-                                    <option className='option' value="ISE">EE</option>
-                                    <option className='option' value="CSD">ETE</option>
-                                    <option className='option' value="ABC">Civil</option>
-                                    <option className='option' value="CDE">Aero</option>
-                                    <option className='option' value="XCE">XCE</option> */}
+                                
                                 </select>
                             </div>
                             <div className='flex flex-col w-full' style={{ gap: "0.5rem" }}>
@@ -125,12 +123,12 @@ const Form = () => {
                             {mode === true ? (<>
                                 <div className='flex flex-col' style={{ gap: "0.5rem", width: "100%" }}>
                                     <label className='form-label' htmlFor="usn">USN</label>
-                                    <input placeholder='Enter USN' required {...register("usn")} type="text" className='input-box' onChange={handleInputChange} value={inputValue}/>
+                                    <input placeholder='Enter USN' required {...register("usn")} type="text" className='input-box' onChange={(e)=>setUsnInput(e.target.value.toUpperCase())} value={usnInput}/>
                                 </div>
                             </>) : (<>
                                 <div className='flex flex-col' style={{ gap: "0.5rem", width: "100%" }}>
-                                    <label className='form-label' htmlFor="usn">Registeration No.</label>
-                                    <input placeholder='Enter Reg. No.' required {...register("regno")} type="text" className='input-box' onChange={handleInputChange} value={inputValue} />
+                                    <label className='form-label' htmlFor="regno">Admission No. (For 1st Years)</label>
+                                    <input placeholder='Enter Admission No. (23UGDS...)' required {...register("regno")} type="text" className='input-box' onChange={(e)=>setRegInput(e.target.value.toUpperCase())} value={regInput} />
                                 </div>
                             </>)}</>)}
                         <div className='flex flex-col' style={{ gap: "0.5rem", width: "100%" }}>
