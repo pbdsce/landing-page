@@ -87,6 +87,7 @@ const Form = () => {
         else
         toast.error(`Uh-Oh! ${error.details}`,{duration:3000});
         reset()
+        setDisplay(false);
         setUsnInput("")
         setRegInput("")
     }
