@@ -32,7 +32,15 @@ const Form = () => {
     const { register, handleSubmit,reset } = useForm()
 
     const onSubmit = async (dataa) => {
-        const {usn,whatsapp} = dataa
+        const {usn,whatsapp,branch, year} = dataa
+        if(branch === "Select Branch") {
+            toast.error("Enter Your Branch",{duration:2500})
+            return
+        }
+        if(year === "Select year") {
+            toast.error("Enter Your Year",{duration:2500})
+            return
+        }
         if(!phoneRegex.test(whatsapp)){
             toast.error("Please enter a valid 10 digit phone no.",{duration:3000})
             return

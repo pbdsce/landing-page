@@ -55,7 +55,7 @@ const Cta = ({
               </svg>
             </Input>*/}
 
-            <a href={'https://fest.pointblank.club/'}>
+            <a href={'/form'}>
               <button
                 style={{
                   display: 'flex',
