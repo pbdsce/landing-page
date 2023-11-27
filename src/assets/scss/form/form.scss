@@ -44,6 +44,11 @@
         background-color: white;
         color:black;
     }
+
+    &:disabled{
+        opacity: 20;
+        cursor: not-allowed;
+    }
 }
 
 

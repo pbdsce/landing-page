@@ -17,6 +17,7 @@ const Form = () => {
     const [usnInput, setUsnInput] = useState("")
     const [regInput, setRegInput] = useState("")
     const [display, setDisplay] = useState(false)
+    const [disabled,setDisabled] = useState(false)
     const usnRegex = /^1DS\w{7}$/
     const phoneRegex = /^\d{10}$/
     const admnRegex = /^23UGDS\w{4}$/
@@ -53,7 +54,6 @@ const Form = () => {
                 toast.error("Please Enter correct Admission No.", { duration: 2500 })
                 return
             }
-
         }
         else {
             if (!usnRegex.test(usn)) {
@@ -63,6 +63,7 @@ const Form = () => {
 
         }
         let savingToast = toast.loading("Saving Data");
+        setDisabled(true)
         const data = await fetch("https://h1so0s7f9i.execute-api.us-east-1.amazonaws.com/Prod/", {
             method: "POST",
             headers: {
@@ -84,6 +85,7 @@ const Form = () => {
         setUsnInput("")
         setRegInput("")
         reset()
+        setDisabled(false)
         setDisplay(false);
 
     }
@@ -148,7 +150,7 @@ const Form = () => {
                             <label className='form-label' htmlFor="whatsapp">Tell us something about yourself {"("}max 150 words{"}"} <span style = {{color:"red"}}>*</span></label>
                             <textarea placeholder='I am a....' rows={6} required {...register("bio")} type="tel" className='input-box' />
                         </div>
-                        <button type="submit" className='form-btn'>Submit</button>
+                        <button disabled = {disabled} type="submit" className='form-btn'>Submit</button>
                     </div>
 
                 </form>
