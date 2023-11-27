@@ -18,7 +18,8 @@ const Form = () => {
     const [regInput, setRegInput] = useState("")
     const [display, setDisplay] = useState(false)
     const [disabled,setDisabled] = useState(false)
-    const usnRegex = /^1DS\w{7}$/
+    const usn2ndYearRegex = /^1DS22\w{5}$/
+    const usn3rdYearRegex = /^1DS21\w{5}$/
     const phoneRegex = /^\d{10}$/
     const admnRegex = /^23UGDS\w{4}$/
 
@@ -56,8 +57,8 @@ const Form = () => {
             }
         }
         else {
-            if (!usnRegex.test(usn)) {
-                toast.error("Please enter a valid USN", { duration: 3500 })
+            if ( (!usn2ndYearRegex.test(usn) && dataa.year==="2") || (!usn3rdYearRegex.test(usn) && dataa.year==="3") ) {
+                toast.error("Please enter a valid USN according to your year", { duration: 3500 })
                 return
             }
 
