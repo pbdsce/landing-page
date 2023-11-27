@@ -17,7 +17,6 @@ const Form = () => {
     const [usnInput,setUsnInput] = useState("")
     const [regInput, setRegInput] = useState("")
     const [display, setDisplay] = useState(false)
-    const [inputValue, setInputValue] = useState('');
     const usnRegex = /^1DS\w{7}$/
     const phoneRegex = /^\d{10}$/
     const admnRegex = /^23UGDS\w{4}$/
@@ -45,7 +44,6 @@ const Form = () => {
             toast.error("Please enter a valid 10 digit phone no.",{duration:3000})
             return
         }
-        let db,regValue,regField;
         if(dataa.year === '1'){
             if(!admnRegex.test(dataa.regno)){
                 toast.error("Please Enter correct Admission No.", {duration:2500})
@@ -79,10 +77,11 @@ const Form = () => {
         }
         else
         toast.error(`Uh-Oh! ${res?.details}`,{duration:3000});
-        reset()
-        setDisplay(false);
         setUsnInput("")
         setRegInput("")
+        reset()
+        setDisplay(false);
+
     }
 
     return (
@@ -105,7 +104,7 @@ const Form = () => {
                             <div className='flex flex-col w-full' style={{ gap: "0.5rem" }}>
                                 <label className='form-label' htmlFor="name">Branch</label>
                                 <select required {...register("branch")} className='input-box'>
-                                    <option selected disabled>Select Branch</option>
+                                    <option selected >Select Branch</option>
                                     {branches.map((branch, index)=> <option key = {index} className='option' value = {branch.value}>{branch.name}</option>)}
                                 
                                 </select>
@@ -113,7 +112,7 @@ const Form = () => {
                             <div className='flex flex-col w-full' style={{ gap: "0.5rem" }}>
                                 <label className='form-label' htmlFor="name">Year</label>
                                 <select required {...register("year")} onChange={(e) => changeMode(e)} className='input-box'>
-                                    <option selected disabled>Select year</option>
+                                    <option selected >Select year</option>
                                     <option className='option' value="1">1</option>
                                     <option className='option' value="2">2</option>
                                     <option className='option' value="3">3</option>
