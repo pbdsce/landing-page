@@ -51,41 +51,34 @@ const Form = () => {
                 toast.error("Please Enter correct Admission No.", {duration:2500})
                 return
             }
-            db='First';
-            regValue=dataa.regno;
-            regField='RegNo'
-        }
-        else if(dataa.year === '2')
-        {
-            if(!usnRegex.test(usn)){
-                toast.error("Please enter a valid USN",{duration:2500})
-                return
-            }
-            db='Second';
-            regValue=dataa.usn;
-            regField='USN';
-
+         
         }
         else{
             if(!usnRegex.test(usn)){
                 toast.error("Please enter a valid USN",{duration:3500})
                 return
             }
-            db='Third'
-            regValue=dataa.usn;
-            regField='USN';
+
         }
         let savingToast = toast.loading("Saving Data");
-        const {data,error} = await supabase.from(`${db}_Years`).insert({[regField]:regValue,Name:dataa.name,Branch:dataa.branch,Bio:dataa.bio,Year:dataa.year,Email:dataa.email,WhatsApp_No:dataa.whatsapp});
+        const data = await fetch("https://h1so0s7f9i.execute-api.us-east-1.amazonaws.com/Prod/",{
+            method:"POST",
+            headers:{
+                "Content-Type":"application/json",
+            },
+            body: JSON.stringify(dataa)
+        })
+        const res = await data.json()
+        console.log(res)
         toast.dismiss(savingToast)
-        if(!error){
+        if(!res){
             toast.success(`Data Saved ! Good Luck for the Test`,{duration:3000});
         }
-        else if (error.code ==="23505"){
+        else if (res?.code ==="23505"){
             toast.error("Uh-oh!! It seems you have already registered before")
         }
         else
-        toast.error(`Uh-Oh! ${error.details}`,{duration:3000});
+        toast.error(`Uh-Oh! ${res?.details}`,{duration:3000});
         reset()
         setUsnInput("")
         setRegInput("")
