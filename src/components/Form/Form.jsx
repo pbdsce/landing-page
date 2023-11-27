@@ -18,7 +18,7 @@ const Form = () => {
     const [regInput, setRegInput] = useState("")
     const [display, setDisplay] = useState(false)
     const [disabled,setDisabled] = useState(false)
-    const usnRegex = /^1DS\w{7}$/
+    const usnRegex = /^1DS(?:21|22)\w{5}$/
     const phoneRegex = /^\d{10}$/
     const admnRegex = /^23UGDS\w{4}$/
 
