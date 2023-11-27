@@ -8,7 +8,7 @@ const FooterSocial = ({ className, ...props }) => {
     <div {...props} className={classes}>
       <ul className='list-reset'>
         <li>
-          <a href='https://www.facebook.com/PBDSCE/'>
+          <a target = "_blank" href='https://twitter.com/pointblank_dsce'>
             <svg
               clip-rule='evenodd'
               fill-rule='evenodd'
@@ -28,7 +28,7 @@ const FooterSocial = ({ className, ...props }) => {
           </a>
         </li>
         <li>
-          <a href='https://www.linkedin.com/company/point-blank-d/mycompany/'>
+          <a target = "_blank" href='https://www.linkedin.com/company/point-blank-d/mycompany/'>
             <svg
               height='30'
               width='30'
@@ -49,7 +49,7 @@ const FooterSocial = ({ className, ...props }) => {
           </a>
         </li>
         <li>
-          <a href='https://www.instagram.com/pointblank_dsce/'>
+          <a target = "_blank" href='https://www.instagram.com/pointblank_dsce/'>
             <svg
               width='30'
               height='30'

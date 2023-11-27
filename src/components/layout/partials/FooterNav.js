@@ -20,7 +20,7 @@ const FooterNav = ({ className, ...props }) => {
                 </li>
                 <li>
                     <a
-                        href='https://forms.gle/yCwMHcn2iatnk9mW6'
+                        href='mailto:admin@pointblank.club'
                         target='_blank'
                     >
                         Contact Us
