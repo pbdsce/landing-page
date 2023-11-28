@@ -25,7 +25,7 @@ const Events = () => {
                                     <img src={x["imageLink"]} alt="logo" className='event-poster' />
                                 </div>
                                 <div className='event-content-container'>
-                                    <h3 style={{textAlign:"center"}}>{x["Name"]}</h3>
+                                    <h3 style={{textAlign:"center",fontSize:"1rem"}}>{x["Name"]}</h3>
                                     <ul>
                                         {x["achievements"].map((x,i)=><li key = {x+i.toString()}>{x}</li>)}
                                         {/* <li></li> */}
