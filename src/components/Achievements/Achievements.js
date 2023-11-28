@@ -20,7 +20,7 @@ const Events = () => {
                 <div className='event-parent-container'>
                     {data.map((x, i) => {
                         return (
-                            <a href = {x["Portfolio/Github"]} className="event-container" key={i}>
+                            <div className="event-container" key={i}>
                                 <div className='event-poster-container'>
                                     <img src={x["imageLink"]} alt="logo" className='event-poster' />
                                 </div>
@@ -31,7 +31,7 @@ const Events = () => {
                                         {/* <li></li> */}
                                     </ul>
                                 </div>
-                            </a>
+                            </div>
                         )
                     })}
                 </div>

@@ -6,7 +6,7 @@
     width: 100%;
     gap: 1.4rem; /* Adjust the gap as needed */
     justify-content: center;
-    place-items: center;
+    place-items: start;
 }
 
 @include media( '<=large' ) {
@@ -20,6 +20,7 @@
 
     .event-parent-container{
         grid-template-columns: repeat(1,1fr);
+        place-items: center;
     }
 }
 
