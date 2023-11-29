@@ -44,14 +44,15 @@
     "name" : "Debayan Ghosh Dastider",
     "role" : "Lead"
   },
+  { 
+    "img" : "https://media.licdn.com/dms/image/D5603AQHKig9YtCb4Dg/profile-displayphoto-shrink_400_400/0/1696183693747?e=1706745600&v=beta&t=_fwVuvzW8mHh7RhqOJSEqf0esRjcdHe4l3La65757NY",
+    "name" : " Animesh Kumar Jha",
+    "role" : "Social Media"
+  },
   {
     "img" : "https://avatars.githubusercontent.com/u/83706503?s=400&u=2d00114433bc28b8e28252e41bbc919229b9a7f4&v=4",
     "name" : "Rithik Raj Pandey",
     "role" : "Lead"
-  },
-  {
-    "img" : "https://media.licdn.com/dms/image/D5603AQGqUJtDkkC0cw/profile-displayphoto-shrink_400_400/0/1696353001024?e=1704326400&v=beta&t=rA6E3C5K-544uYtvKWexl6zjUrR0IIoO3AZ8qrrWRZ8",
-    "name" : "Akash Singh",
-    "role" : "Member"
   }
+
 ]
