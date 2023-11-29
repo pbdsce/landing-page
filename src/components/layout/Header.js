@@ -144,7 +144,7 @@ const Header = ({
                           className='navlink'
                           onClick={closeMenu}
                         >
-                          Members
+                          Leads
                         </a>
                       </li>
                       <li>

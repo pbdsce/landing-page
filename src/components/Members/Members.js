@@ -7,14 +7,14 @@ import { Link } from "react-router-dom"
 
 export const Card = ({img, name, role}) => {
     return (
-        <Link to="https://pointblank.vercel.app/kitarp29" className="members-container">
+        <div className="members-container">
             <img src={img} alt="logo" className='members-img' />
             <div className='members-img-overlay'></div>
             <div className='members-info-container'>
                 <h2>{name}</h2>
                 <h3>{role}</h3>
             </div>
-        </Link>
+        </div>
     )
 }
 
@@ -36,12 +36,12 @@ const Members = () => {
                         <Card img={item.img} key={key} name={item.name} role={item.role} />
                     ))}
                 </div>
-                <h3 style = {{textAlign:"center"}}>Members</h3>
+                {/* <h3 style = {{textAlign:"center"}}>Members</h3>
                 <div className='members-parent-container'>
                     {data.filter((x)=>x.role==="Member").map((item, key) => (
                         <Card img={item.img} key={key} name={item.name} role={item.role} />
                     ))}
-                </div>
+                </div> */}
             </div>
         </>
     )
