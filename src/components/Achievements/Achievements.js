@@ -17,7 +17,7 @@ const Events = () => {
 
             <div className="container">
                 <SectionHeader style={{ marginTop: "-30px" }} data={sectionHeader} className="center-content" />
-                <div className='event-parent-container'>
+                <div className='event-parent-container' style = {{alignItems:"stretch"}}>
                     {data.map((x, i) => {
                         return (
                             <div className="event-container" key={i}>

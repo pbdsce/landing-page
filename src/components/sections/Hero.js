@@ -11,6 +11,8 @@ import ca_1 from '../../assets/images/new1.jpeg'
 import ca_2 from './../../assets/images/pb_1.png'
 import ca_3 from './../../assets/images/pb_2.png'
 import ca_4 from './../../assets/images/new2.jpeg'
+import rec from "../../assets/images/rec.png"
+import { useHistory } from 'react-router-dom/cjs/react-router-dom'
 
 const propTypes = {
     ...SectionProps.types,
@@ -50,12 +52,17 @@ const Hero = ({
         invertColor && 'invert-color',
         className
     )
-
+    useHistory()
     const innerClasses = classNames(
         'hero-inner section-inner',
         topDivider && 'has-top-divider',
         bottomDivider && 'has-bottom-divider'
     )
+
+
+    const route = () => {
+        window.location.href = "/form"
+    }
 
     return (
         <section {...props} className={outerClasses}>
@@ -87,7 +94,7 @@ const Hero = ({
                         data-reveal-delay='500'
                     >
                         <AwesomeSlider>
-            
+                            <div style = {{cursor:"pointer"}} onClick={()=>{route()}} data-src={rec} />
                             <div data-src={ca_2} />
                             <div data-src={ca_3} />
                             <div data-src={ca_1} />
