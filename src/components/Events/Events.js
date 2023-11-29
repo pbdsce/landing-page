@@ -30,7 +30,7 @@ const Events = () => {
                                     <h3>{x.event_name}</h3>
                                     <p><b>{x.speaker_name} </b> {x.speaker_designation}</p>
                                     <p style={{fontWeight:"500",marginTop:"4px"}}>{x.event_description}</p>
-                                    <p>{x.event_date}, {x.event_start_time} - {x.event_start_time}</p>
+                                    <p>{x.event_date} {x.event_start_time.length !==0 ? (<>, {x.event_start_time} - {x.event_start_time}</>):""}</p>
                                     
                                 </div>
                             </a>
