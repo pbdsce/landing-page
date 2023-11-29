@@ -62,6 +62,11 @@ const FeaturesSplit = ({
     "/ac.png"
   ]
 
+  const securityImages=[
+    "../../assets/images/features-split-image-02.png",
+    "../../assets/images/features-split-image-02.png"
+  ]
+
   return (
     <section
       {...props}
@@ -74,7 +79,7 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                <div className="text-xxs text-color-secondary fw-600 tt-u mb-8">
                   Competitive Coding
                   </div>
                 <h3 className="mt-0 mb-12">
@@ -82,35 +87,9 @@ const FeaturesSplit = ({
                   </h3>
                   <br />
                 <p className="m-0">
-                Point Blank has hosted 40+ editions of its PB Hustle coding contest, where participants tackle 5-7 progressively challenging questions in their chosen language. The aim is to improve college programming culture and qualify teams for ACM ICPC. Notably, DSCE's top programmers have emerged from this, with Codechef long challenge participation growing from 3 to 70+ participants. Further details are provided later.
-                  {/* Since its inception, Point Blank has organised <b>over 40 iterations</b> of
-its weekly coding contest, called the <b>PB Hustle</b> . We ask participants to solve a series
-of 5-7 questions of varying difficulty levels in a programming language of their choice.
-The contests are open to all and the contests get progressively harder over iterations.
-The end goal of this competition is to have college teams qualify for the ACM ICPC, and
-to better the programming culture in the college.
-                  </p>
-                  <br/>
-                  <p>
-                  To this effect we have already seen a lot of success, we currently have some of the best
-programmers DSCE has ever seen (on the basis of rating and competition
-performance). Our participation numbers in competitions such as Codechef long
-challenge has gone up from 3 to 70+ participants. The details are elaborated upon in
-later sections. */}
+                Point Blank has hosted 40+ editions of its PB Hustle coding contest, where participants tackle 5-7 progressively challenging questions in their chosen language. The aim is to improve college programming culture and qualify teams for ACM ICPC. Notably, DSCE's top programmers have emerged from this, with Codechef long challenge participation growing from 3 to 70+ participants.
                   </p>
               </div>
-              {/* <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396} />
-              </div> */}
               <div
                 style={{
                   display:"grid",
@@ -121,6 +100,7 @@ later sections. */}
                 }}
               >
                 {codingImages.map((x,i)=>{
+                  console.log(x);
                   return(
                     <img
                       src = {x}
@@ -139,7 +119,7 @@ later sections. */}
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                <div className="text-xxs text-color-secondary fw-600 tt-u mb-8">
                   Development
                   </div>
                 <h3 className="mt-0 mb-12">
@@ -173,7 +153,7 @@ our primer to F/OSS development
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                <div className="text-xxs text-color-secondary fw-600 tt-u mb-8">
                   Hackathons
                   </div>
                 <h3 className="mt-0 mb-12">
@@ -193,6 +173,48 @@ Two of our teams qualified to the finals, with 1 winning the software edition..
                 data-reveal-container=".split-item">
                 <Image
                   src={require('./../../assets/images/features-split-image-03.png')}
+                  alt="Features split 03"
+                  width={528}
+                  style = {{
+                    borderRadius:"7px"
+                  }}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-secondary fw-600 tt-u mb-8">
+                Cyber Security
+                  </div>
+                <h3 className="mt-0 mb-12">
+                CTFs/Sessions
+                  </h3>
+                  <br />
+                <p className="m-0">
+                We organise  Workshops and Sessions about various topics in Cyber Security and also Hands On sessions for practise on various platforms.
+                  In 2023 We organized the 1st Iteration of in-house Capture The Flag event titled <b>PBCTF</b> which saw participation of more than 70 hackers.
+                  </p>
+              </div>
+              <div
+                style={{
+                  display:"grid",
+                  gridTemplateColumns:"auto auto",
+                  gridTemplateAreas:"auto auto",
+                  gap:"1rem",
+                  marginLeft:"auto"
+                }}
+              >
+                    <Image
+                  src={require('./../../assets/images/htb.svg')}
+                  alt="Features split 03"
+                  width={528}
+                  style = {{
+                    borderRadius:"7px"
+                  }}
+                  height={396} />
+                  <Image
+                  src={require('./../../assets/images/thm.svg')}
                   alt="Features split 03"
                   width={528}
                   style = {{
