@@ -1,0 +1,57 @@
+[ 
+  { 
+    "img" : "https://ik.imagekit.io/qx5kklh3ls/WhatsApp%20Image%202023-10-29%20at%2011.12.20%20AM.jpeg?updatedAt=1698558279266",
+    "name" : "Saalim Quadri",
+    "role" : "Lead"
+  },
+  { 
+    "img" : "https://ik.imagekit.io/qx5kklh3ls/IMG-20220219-WA0040.jpg?updatedAt=1698773248773",
+    "name" : "Akash Sharma",
+    "role" : "Member"
+  },
+  { 
+    "img" : "https://ik.imagekit.io/qx5kklh3ls/index.jpeg?updatedAt=1678781533632",
+    "name" : "Prathik Singh",
+    "role" : "Lead"
+  },
+  { 
+    "img" : "https://avatars.githubusercontent.com/u/90026952?v=4",
+    "name" : "Pratyush Singh",
+    "role" : "Lead"
+  },
+  { 
+    "img" : "https://avatars.githubusercontent.com/u/36353507?v=4",
+    "name" : "Ashutosh Pandey",
+    "role" : "Lead"
+  },
+  { 
+    "img" : "https://avatars.githubusercontent.com/u/37359679?v=4",
+    "name" : "Bapu Pruthvidhar",
+    "role" : "Lead"
+  },
+  { 
+    "img" : "https://avatars.githubusercontent.com/u/64669326?v=4",
+    "name" : "Anukul Anand",
+    "role" : "Lead"
+  },
+  { 
+    "img" : "https://avatars.githubusercontent.com/u/77354138?v=4",
+    "name" : "Madhur Mehta",
+    "role" : "Lead"
+  },
+  { 
+    "img" : "https://avatars.githubusercontent.com/u/77199373?v=4",
+    "name" : "Debayan Ghosh Dastider",
+    "role" : "Lead"
+  },
+  {
+    "img" : "https://avatars.githubusercontent.com/u/83706503?s=400&u=2d00114433bc28b8e28252e41bbc919229b9a7f4&v=4",
+    "name" : "Rithik Raj Pandey",
+    "role" : "Lead"
+  },
+  {
+    "img" : "https://media.licdn.com/dms/image/D5603AQGqUJtDkkC0cw/profile-displayphoto-shrink_400_400/0/1696353001024?e=1704326400&v=beta&t=rA6E3C5K-544uYtvKWexl6zjUrR0IIoO3AZ8qrrWRZ8",
+    "name" : "Akash Singh",
+    "role" : "Member"
+  }
+]

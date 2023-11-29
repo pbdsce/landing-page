@@ -1,0 +1,110 @@
+// Define the media mixin
+@mixin media($breakpoint) {
+    @media screen and (max-width: #{$breakpoint}) {
+      @content;
+    }
+  }
+  
+  // Use the media mixin
+  .members-parent-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    max-width: 1200px;
+    width: 100%;
+    gap: 1.4rem;
+    justify-content: center;
+    place-items: center;
+  
+    @include media(1200px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include media(700px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+
+
+// @include media( '<=medium' ) {
+
+//     .members-parent-container{
+//         grid-template-columns: repeat(1,1fr);
+//     }
+// }
+
+.members-container {
+    // padding: 0 1.5rem;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.079);
+    border-radius: 7px;
+    // min-height: 350px;
+    width: 330px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 330px;
+    overflow: hidden;
+    // margin-bottom: 5%;
+    position: relative;
+    transition: all 0.5s;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+
+
+
+    .members-img {
+        width: 100%;
+        height: 100%;
+
+        margin-bottom: 12px;
+        object-fit: cover;
+        position: absolute;
+    }
+    .members-img-overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background:linear-gradient(to top, rgba(0, 0, 0, 0.96),rgba(0, 0, 0, 0.708), transparent)
+    }
+
+    .members-info-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10%;
+        position: relative;
+
+    }
+    transition:all;
+    transition-duration: 130ms;
+    &:hover{
+        transform:translateY(-5px) ;
+        box-shadow: 1px 1px 13px rgba(255, 255, 255, 0.1);
+    }
+
+
+    h2 {
+        display: inline;
+        font-size: 1.3rem;
+        margin: 0;
+        padding: 0;
+        // background-image: linear-gradient(to right,#C6FFDD,#FBD786,#f7797d);
+        background-image: linear-gradient(to right, #d53369, #cbad6d);
+        // background-image: linear-gradient(to right,#355C7D,#6C5B7B,#C06C84);
+        // color:#3CCF4E
+        color: transparent;
+        background-clip: text;
+        font-weight: 700;
+    }
+
+    h3 {
+        display: inline;
+        font-size: 0.8rem;
+        margin: 0;
+        padding: 0;
+        line-height: 1rem;
+        color: rgba(255, 255, 255, 0.405);
+    }
+
+}

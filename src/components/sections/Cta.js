@@ -46,7 +46,7 @@ const Cta = ({
       <div className='container'>
         <div className={innerClasses}>
           <div className='cta-slogan'>
-            <h3 className='m-0'>Hackathon and more...!!</h3>
+            <h3 className='m-0'>Unleash Possibilities : Point Blank is Recruiting !!!</h3>
           </div>
           <div className='cta-action'>
             {/*<Input id="newsletter" type="email" label="Subscribe" labelHidden hasIcon="right" placeholder="Email Id">
@@ -55,7 +55,7 @@ const Cta = ({
               </svg>
             </Input>*/}
 
-            <a href={'https://fest.pointblank.club/'}>
+            <a href={'/form'}>
               <button
                 style={{
                   display: 'flex',

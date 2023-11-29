@@ -79,7 +79,13 @@ const Header = ({
   )
 
   return (
+    <>
+
     <header {...props} className={classes}>
+    <div style = {{backgroundColor:" #ffb618 ", width:"100%", padding:"10px",textAlign:"center",color:"black",fontWeight:"600",fontSize:".8rem"}}>
+      We are recruiting !!&nbsp;
+      <a href="/form" style = {{textDecoration:"underline", color:"black"}}>Register here</a>
+    </div>
       <div className='container'>
         <div
           className={classNames(
@@ -124,30 +130,43 @@ const Header = ({
                     <ul className='list-reset header-nav-right'>
                       <li>
                         <a
-                          href={'https://blog.pointblank.club/'}
-                          target='_blank'
-                          className='button button-wide-mobile button-sm'
+                          href={'/events'}
+                          className='navlink'
                           onClick={closeMenu}
                         >
-                          Blog
+                          Events
                         </a>
                       </li>
                       <li>
                         <a
-                          href={'https://forum.dsce.in/'}
-                          target='_blank'
-                          className='button button-wide-mobile button-sm'
+                          href={'/members'}
+                          
+                          className='navlink'
                           onClick={closeMenu}
                         >
-                          Forum
+                          Members
                         </a>
                       </li>
                       <li>
                         <a
-                          href={'https://forms.gle/yCwMHcn2iatnk9mW6'}
-                          target='_blank'
+                          href={'/achievements'}
+                          
+                          className='navlink'
+                          onClick={closeMenu}
+                        >
+                          Achievements
+                        </a>
+                      </li>
+                   
+                      <li>
+                        <a
+                          href={'mailto:admin@pointblank.club'}
+                          
                           className='button button-primary button-wide-mobile button-sm'
                           onClick={closeMenu}
+                          style = {{
+                            borderRadius:"5px"
+                          }}
                         >
                           Contact Us
                         </a>
@@ -161,6 +180,7 @@ const Header = ({
         </div>
       </div>
     </header>
+    </>
   )
 }
 
@@ -168,3 +188,4 @@ Header.propTypes = propTypes
 Header.defaultProps = defaultProps
 
 export default Header
+  

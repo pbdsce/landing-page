@@ -12,7 +12,6 @@ const Home = () => {
     <>
       <Hero className='illustration-section-01' />
       <a name='ffteams'></a>
-      <Cta split />
       <br></br>
       <br></br>
 

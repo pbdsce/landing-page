@@ -1,0 +1,43 @@
+[
+    {
+        "event_name": "This is a new Event",
+        "event_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "speaker_name":"John Doe",
+        "speaker_designation":"App Developer at Google", 
+        "event_date":"12/12/2023",
+        "event_start_time":"18:00",
+        "event_end_time":"19:00",
+        "event_poster":"https://www.oyorooms.com/blog/wp-content/uploads/2018/02/event.jpg"
+    },
+    {
+        "event_name": "This is a new Event",
+        "event_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "speaker_name":"John Doe",
+        "speaker_designation":"App Developer at Google", 
+        "event_date":"12/12/2023",
+        "event_start_time":"18:00",
+        "event_end_time":"19:00",
+        "event_poster":"https://www.oyorooms.com/blog/wp-content/uploads/2018/02/event.jpg"
+    },
+    {
+        "event_name": "This is a new Event",
+        "event_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "speaker_name":"John Doe",
+        "speaker_designation":"App Developer at Google", 
+        "event_date":"12/12/2023",
+        "event_start_time":"18:00",
+        "event_end_time":"19:00",
+        "event_poster":"https://www.oyorooms.com/blog/wp-content/uploads/2018/02/event.jpg"
+    },
+    {
+        "event_name": "This is a new Event",
+        "event_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "speaker_name":"John Doe",
+        "speaker_designation":"App Developer at Google", 
+        "event_date":"12/12/2023",
+        "event_start_time":"18:00",
+        "event_end_time":"19:00",
+        "event_poster":"https://www.oyorooms.com/blog/wp-content/uploads/2018/02/event.jpg"
+    }
+
+]
