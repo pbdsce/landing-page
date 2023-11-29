@@ -30,7 +30,7 @@ const Members = () => {
 
             <div className="container">
                 <SectionHeader style={{ marginTop: "-30px" }} data={sectionHeader} className="center-content" />
-                <h3 style = {{textAlign:"center"}}>Leads</h3>
+                {/* <h3 style = {{textAlign:"center"}}></h3> */}
                 <div className='members-parent-container'>
                     {data.filter((x)=>x.role==="Lead").map((item, key) => (
                         <Card img={item.img} key={key} name={item.name} role={item.role} />
