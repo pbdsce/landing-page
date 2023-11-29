@@ -62,11 +62,6 @@ const FeaturesSplit = ({
     "/ac.png"
   ]
 
-  const securityImages=[
-    "../../assets/images/features-split-image-02.png",
-    "../../assets/images/features-split-image-02.png"
-  ]
-
   return (
     <section
       {...props}
