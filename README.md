@@ -1,6 +1,6 @@
 # Landing-webpage Point Blank
 
-![Powered by Vercel](website/static/img/powered-by-vercel.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/78bf83ca-927b-470d-a103-b7a66a680ce9/deploy-status)](https://app.netlify.com/sites/pbpage/deploys)
 
 This is the landing page of Point Blank. A coding community of Dayananda Sagar College of Engineering, Bangalore. The site is deployed on Vercel.
 
