@@ -17,18 +17,21 @@ const Events = () => {
 
             <div className="container">
                 <SectionHeader style={{ marginTop: "-30px" }} data={sectionHeader} className="center-content" />
-                <div className='event-parent-container'>
+                <div className='event-parent-container' style = {{alignItems:"stretch"}}>
                     {data.map((x, i) => {
                         return (
-                            <a href = {x["Portfolio/Github"]} className="event-container" key={i}>
+                            <div className="event-container" key={i}>
                                 <div className='event-poster-container'>
-                                    <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlwj2YK4IT8kJKQS7a57mwtW1tDedIj4lobQ&usqp=CAU"} alt="logo" className='event-poster' />
+                                    <img src={x["imageLink"]} alt="logo" className='event-poster' />
                                 </div>
                                 <div className='event-content-container'>
-                                    <h3>{x["Name"]}</h3>
-                                    <p><b>{x["achievements"]} </b></p>
+                                    <h3 style={{textAlign:"center",fontSize:"1rem"}}>{x["Name"]}</h3>
+                                    <ul>
+                                        {x["achievements"].map((x,i)=><li key = {x+i.toString()}>{x}</li>)}
+                                        {/* <li></li> */}
+                                    </ul>
                                 </div>
-                            </a>
+                            </div>
                         )
                     })}
                 </div>
