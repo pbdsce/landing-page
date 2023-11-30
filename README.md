@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/78bf83ca-927b-470d-a103-b7a66a680ce9/deploy-status)](https://app.netlify.com/sites/pbpage/deploys)
 
-This is the landing page of Point Blank. A coding community of Dayananda Sagar College of Engineering, Bangalore. The site is deployed on Vercel.
+This is the landing page of Point Blank. A coding community of Dayananda Sagar College of Engineering, Bangalore. The site is deployed on Netlify.
 
 ## What is Point Blank?
 
@@ -54,3 +54,8 @@ Steps to install NodeJs [Here](https://nodejs.org/en/download/)
 
 
 The site starts at http://localhost:3000/ after starting the server.
+
+## Deployment
+
+When the changes are ready, please open a PR to merge the changes to `master` branch. Any and all successful merge will automatically deploy the changes to production. There is no manual intervention 
+required.

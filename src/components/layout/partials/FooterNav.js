@@ -9,11 +9,6 @@ const FooterNav = ({ className, ...props }) => {
         <nav {...props} className={classes}>
             <ul className='list-reset'>
                 <li>
-                    <a href='https://blog.pointblank.club/' target='_blank'>
-                        Blog
-                    </a>
-                </li>
-                <li>
                     <a href='https://forum.dsce.in/' target='_blank'>
                         Forum
                     </a>
