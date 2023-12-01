@@ -86,7 +86,18 @@
     "Company and Position": "",
     "Stipend": 50000,
     "achievements": [
-      ["Runner-up at Hack-Star Bengaluru 2021 conducted by Mercedes Benz"],["Runner-up at Eureka 2022 conducted by IIT Bombay"],[" Winner at IDEATHON 4.0 conducted by NMIT,Bangalore"], ["Finalist Smart India Hackathon 2022"]
+      [
+        "Runner-up at Hack-Star Bengaluru 2021 conducted by Mercedes Benz"
+      ],
+      [
+        "Runner-up at Eureka 2022 conducted by IIT Bombay"
+      ],
+      [
+        " Winner at IDEATHON 4.0 conducted by NMIT,Bangalore"
+      ],
+      [
+        "Finalist Smart India Hackathon 2022"
+      ]
     ]
   },
   {
@@ -250,5 +261,154 @@
     "achievements": [
       "Seedbrains Innovation Awards 2023"
     ]
+  },
+  {
+    "Timestamp": "11/29/2023 12:31:09",
+    "imageLink": "https://media.licdn.com/dms/image/C5103AQH4mTeVp5rO7w/profile-displayphoto-shrink_800_800/0/1530554114085?e=1706745600&v=beta&t=HcCTeNkt-L3ftJ3AU_JlwzLgXvK59n02b5P-eJQA_2c",
+    "Email address": "smpsmp13@gmail.com",
+    "Name": "Soumya Pattanayak",
+    "Batch": 2021,
+    "Portfolio/Github": "https://github.com/0Xero7",
+    "Company and Position": "Amazon",
+    "CTC": 4400000,
+    "Doing internship or have done in past?": "No",
+    "achievements": [
+      "First team to qualify to ICPC regionals from DSCE",
+      "Expert @ CF, 5* @ CC",
+      "Ranked 221 worldwide in Google KickStart 2020 Round H"
+    ],
+    "Upload an image of your achievement": "https://drive.google.com/open?id=1QP5ofl2UsLZjHeDyMYi8KX_d8bw6vHgB"
+  },
+  {
+    "Timestamp": "11/29/2023 14:17:45",
+    "imageLink": "https://media.licdn.com/dms/image/D5603AQEmv1txpFhLrQ/profile-displayphoto-shrink_800_800/0/1699607376287?e=1706745600&v=beta&t=aZihR-KSOfg4shVAAkahoAYEgxPxSWrBN7hY-RK1b0U",
+    "Email address": "kritikmodi@gmail.com",
+    "Name": "Kritik Modi",
+    "Batch": 2019,
+    "Portfolio/Github": "github.com/kritikmodi",
+    "Company and Position": "Datatailr",
+    "CTC": 70,
+    "Doing internship or have done in past?": "Yes",
+    "Stipend": 0,
+    "achievements": [
+      "GitHub Externship 2022",
+      "ICPC Regionals 2022",
+      " SIH 2022"
+    ],
+    "Upload an image of your achievement": "https://drive.google.com/open?id=1lRqo0OQdptpeTCP-KVoju3oPYP8IdAgA"
+  },
+  {
+    "Timestamp": "11/29/2023 15:42:11",
+    "imageLink": "https://media.licdn.com/dms/image/C5603AQE1RyZ1NjzNDg/profile-displayphoto-shrink_800_800/0/1659636211330?e=1706745600&v=beta&t=Juj-EQhYQM0XQ14qfjXJS0XzO9eHtER_53_rtK5OhK8",
+    "Email address": "guptapriyanshu462@gmail.com",
+    "Name": "Priyanshu Gupta ",
+    "Batch": 2024,
+    "Portfolio/Github": "github.com/priyanshu236",
+    "Doing internship or have done in past?": "Yes",
+    "Company and Position": "Scaler Problem setter intern",
+    "Stipend": 35000,
+    "achievements": [
+      "Candidate Master Codeforces",
+      " ACM-ICPC Regionalist",
+      "India rank 25 Leetcode"
+    ]
+  },
+  {
+    "Timestamp": "11/29/2023 17:57:55",
+    "imageLink": "https://media.licdn.com/dms/image/D5603AQHoEH1RFbn_qg/profile-displayphoto-shrink_800_800/0/1700209977969?e=1706745600&v=beta&t=Dpav741wNXqGCdQIyTgEo13k6Rtk-VFtSsq_rg5cVBk",
+    "Email address": "pruthvidhar.nanda@gmail.com",
+    "Name": "Bapu Pruthvidhar",
+    "Batch": 2022,
+    "Portfolio/Github": "https://github.com/imPdhar",
+    "Company and Position": "AIML engineer at Lumachain",
+    "CTC": 22,
+    "Doing internship or have done in past?": "Yes",
+    "Stipend": 40000,
+    "achievements": [
+      "Intel Innovate FPGA 3rd Asia Region"
+    ]
+  },
+  {
+    "Timestamp": "11/29/2023 19:18:16",
+    "imageLink": "https://media.licdn.com/dms/image/C5603AQF_uAkoZSTAVA/profile-displayphoto-shrink_800_800/0/1652609397980?e=1706745600&v=beta&t=wr1bHf5a52cuVFhNGfo_d8oWLWZxz44iIOlm6QZgyvE",
+    "Email address": "hansh@slickapp.co",
+    "Name": "Hansh Goyal",
+    "Batch": 2025,
+    "Portfolio/Github": "www.github.com/hanshgoyal",
+    "Doing internship or have done in past?": "Yes",
+    "Company and Position": "Slick(Blockpool Technologies Pvt Ltd) , Backend Developer",
+    "Stipend": 30000,
+    "achievements":[]
+  },
+  {
+    "Timestamp": "11\/28\/2023 17:15:13",
+    "imageLink":"https://media.licdn.com/dms/image/D5635AQHjrCOQULV31w/profile-framedphoto-shrink_800_800/0/1672561786520?e=1702011600&v=beta&t=FijkljXzZ66Cd9zA0sxzssnkNNtYxAmqhtWIjJEPGyI",
+    "Email address": "gaurav.singh.srivastava@gmail.com",
+    "Name": "Gaurav Singh",
+    "Batch": 2024,
+    "Portfolio\/Github": "githum.com\/sgaurav37533",
+    "Doing internship or have done in past?": "Yes",
+    "Company and Position": "Data Engineer at LT partners ",
+    "achievements":[],
+    "Stipend": 85000
+   },
+  {
+    "Timestamp": "11/29/2023 23:08:07",
+    "imageLink": "https://media.licdn.com/dms/image/C4E03AQFN2xJP_2QrJQ/profile-displayphoto-shrink_800_800/0/1595606538110?e=1706745600&v=beta&t=XJVwio2yUkAYKchR7FD7GJpKAgnpI8otIJWLuS16qcU",
+    "Email address": "repegfrost@gmail.com",
+    "Name": "Calan",
+    "Batch": 2023,
+    "Portfolio/Github": "https://github.com/CalanPereira",
+    "Company and Position": "Zeta",
+    "CTC": 30,
+    "Doing internship or have done in past?": "Yes",
+    "Stipend": 75000,
+    "achievements": [
+      "3 Times ICPC Regionalist (AIR 47 best rank)",
+      "Won 2 national level coding contests",
+      "Runners up in a national level hackathon"
+    ]
+  },
+  {
+    "Timestamp": "12/1/2023 0:28:23",
+    "imageLink": "https://media.licdn.com/dms/image/C5103AQFgraYAwPfhGQ/profile-displayphoto-shrink_800_800/0/1583006069281?e=1706745600&v=beta&t=VuztgtxS9RkFiDWgVwODQBfhhFsjXdDrycoc4vutz1M",
+    "Email address": "ashutoshpandey123456@gmail.com",
+    "Name": "Ashutosh Pandey",
+    "Batch": 2021,
+    "Portfolio/Github": "https://github.com/ashpande",
+    "Company and Position": "Advanced Micro Devices (AMD)",
+    "CTC": 33,
+    "Doing internship or have done in past?": "Yes",
+    "Stipend": 120000,
+    "achievements": ["Smart India Hackathon Winner 2019, Dassault Systemes Aakruti South Zone winner"," Google Summer of Code With Arduino"," LFX with Intel Mobileye" ," Rakuten Rakathon Jury’s Choice Award"]
+  },
+  {
+    "Timestamp": "11/29/2023 10:31:40",
+    "imageLink": "https://media.licdn.com/dms/image/C4D03AQGn1rt49CKUvw/profile-displayphoto-shrink_800_800/0/1657287467604?e=1706745600&v=beta&t=CnV-kPV9Ixa0mBLqyULs4gRkopDNNbIgedb7Ufa8E6M",
+    "Email address": "pratib34@gmail.com",
+    "Name": "Prakhar Tibrewal",
+    "Batch": 2023,
+    "Portfolio/Github": "https://github.com/su-madeye",
+    "Company and Position": "JP Morgan Chase - SDE 1",
+    "CTC": 1775000,
+    "Doing internship or have done in past?": "Yes",
+    "Stipend": 50000,
+    "achievements": [],
+    "Upload an image of your achievement": "https://drive.google.com/open?id=1SjdAmzRu30Rs1XvH-VawnMU-0BKO6LDm"
+  },
+
+  {
+    "Timestamp": "11/29/2023 14:03:31",
+    "imageLink": "https://media.licdn.com/dms/image/C4D03AQFmDFHnhT_Y1Q/profile-displayphoto-shrink_800_800/0/1592336424368?e=1706745600&v=beta&t=CdziJ7hDr4hk0ek-vwGW-2NszoRL-rpYz3asaFgELPY",
+    "Email address": "mohitagr00001@gmail.com",
+    "Name": "Mohit Agarwal",
+    "Batch": 2021,
+    "Portfolio/Github": "https://github.com/mohitagr1",
+    "Company and Position": "InMobi (Glance)",
+    "CTC": 4000000,
+    "Doing internship or have done in past?": "Yes",
+    "Stipend": 55000,
+    "achievements": ["Worked on my startup Idea - https://www.codebattle.in/ "," Founded this club/community 😎😌"," CodeChef 4* and 235th rank in CodeChef Long Challange "," 1st place in Nokia Contest 2020."],
+    "Upload an image of your achievement": "https://drive.google.com/open?id=1JlvOzy_q-RM6cqMFTtdgRAx5A5m_YvFF"
   }
 ]
