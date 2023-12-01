@@ -12,8 +12,8 @@ const Card = ({ x }) => {
                 <img src={x["imageLink"]} alt="logo" className='event-poster' />
             </div>
             <div className='event-content-container'>
-                <h3 style={{ textAlign: "center", fontSize: "1rem" }}>{x["Name"]}</h3>
-                <ul>
+                <h3 style={{ textAlign: "center", fontSize: "1.2rem" }}>{x["Name"]}</h3>
+                <ul style = {{marginTop:"10px",}}>
                     {x["Company and Position"] && <li>{x["Company and Position"]}</li>}
                     {x["achievements"].map((x, i) => <li key={x + i.toString()}>{x}</li>)}
                     {/* <li></li> */}
