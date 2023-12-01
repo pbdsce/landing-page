@@ -1,0 +1,26 @@
+.achievement-parent-container{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.achievement-child-container{
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+}
+
+@include media( '<=large' ) {
+
+    .achievement-parent-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@include media( '<=medium' ) {
+
+    .achievement-parent-container{
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+    }
+}
