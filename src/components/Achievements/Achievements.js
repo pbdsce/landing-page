@@ -5,11 +5,31 @@ import SectionHeader from '../sections/partials/SectionHeader';
 import classNames from 'classnames';
 import data from '../../acheive.json'
 
+const Card = ({ x }) => {
+    return (
+        <div className="event-container">
+            <div className='event-poster-container'>
+                <img src={x["imageLink"]} alt="logo" className='event-poster' />
+            </div>
+            <div className='event-content-container'>
+                <h3 style={{ textAlign: "center", fontSize: "1.2rem" }}>{x["Name"]}</h3>
+                <ul style = {{marginTop:"10px",}}>
+                    {x["Company and Position"] && <li>{x["Company and Position"]}</li>}
+                    {x["achievements"].map((x, i) => <li key={x + i.toString()}>{x}</li>)}
+                    {/* <li></li> */}
+                </ul>
+            </div>
+        </div>
+    )
+}
+
 const Events = () => {
 
     const sectionHeader = {
         title: 'Achievements',
     };
+
+    const elementsPerColumn = Math.ceil(data.length / 3);
 
     return (
         <>
@@ -17,23 +37,14 @@ const Events = () => {
 
             <div className="container">
                 <SectionHeader style={{ marginTop: "-30px" }} data={sectionHeader} className="center-content" />
-                <div className='event-parent-container' style = {{alignItems:"stretch"}}>
-                    {data.map((x, i) => {
-                        return (
-                            <div className="event-container" key={i}>
-                                <div className='event-poster-container'>
-                                    <img src={x["imageLink"]} alt="logo" className='event-poster' />
-                                </div>
-                                <div className='event-content-container'>
-                                    <h3 style={{textAlign:"center",fontSize:"1rem"}}>{x["Name"]}</h3>
-                                    <ul>
-                                        {x["achievements"].map((x,i)=><li key = {x+i.toString()}>{x}</li>)}
-                                        {/* <li></li> */}
-                                    </ul>
-                                </div>
-                            </div>
-                        )
-                    })}
+                <div className='achievement-parent-container'>
+                    {[...Array(3)].map((_, colIndex) => (
+                        <div className="achievement-child-container" key={colIndex}>
+                            {data.slice(colIndex * elementsPerColumn, (colIndex + 1) * elementsPerColumn).map((x, i) => (
+                                <Card x={x} key={i} />
+                            ))}
+                        </div>
+                    ))}
                 </div>
             </div>
         </>
